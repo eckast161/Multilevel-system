@@ -277,6 +277,27 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{align*}
+H & =g_{{\rm R}}\sum_{i}\left(a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i}+a_{{\rm R}}^{\dagger}\left|0\right\rangle \!\!\left\langle 3\right|_{i}\right)-\Delta_{{\rm R}}a_{{\rm R}}^{\dagger}a_{{\rm R}}+\frac{\Omega_{{\rm R}}}{2}\sum_{i}\left(\left|3\right\rangle \!\!\left\langle 0\right|_{i}+\left|0\right\rangle \!\!\left\langle 3\right|_{i}\right)\\
+ & \,\,\,\,\,+g_{{\rm L}}\sum_{i}\left(a_{{\rm L}}\left|2\right\rangle \!\!\left\langle 1\right|_{i}+a_{{\rm L}}^{\dagger}\left|1\right\rangle \!\!\left\langle 2\right|_{i}\right)-\Delta_{{\rm L}}a_{{\rm L}}^{\dagger}a_{{\rm L}}+\frac{\Omega_{{\rm L}}}{2}\sum_{i}\left(\left|2\right\rangle \!\!\left\langle 1\right|_{i}+\left|1\right\rangle \!\!\left\langle 2\right|_{i}\right).
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Also:
 \end_layout
 
@@ -300,6 +321,27 @@ Also:
 \sigma_{22,i} & =\left|2\right\rangle \!\!\left\langle 2\right|_{i},\\
 \sigma_{33,i} & =\left|3\right\rangle \!\!\left\langle 3\right|_{i}.
 \end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula 
+\begin{align*}
+H & =g_{{\rm R}}\sum_{i}\left(a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i}+a_{{\rm R}}^{\dagger}\left|0\right\rangle \!\!\left\langle 3\right|_{i}\right)-\Delta_{{\rm R}}a_{{\rm R}}^{\dagger}a_{{\rm R}}+\frac{\Omega_{{\rm R}}}{2}\sum_{i}\left(\left|3\right\rangle \!\!\left\langle 0\right|_{i}+\left|0\right\rangle \!\!\left\langle 3\right|_{i}\right)\\
+ & \,\,\,\,\,+g_{{\rm L}}\sum_{i}\left(a_{{\rm L}}\left|2\right\rangle \!\!\left\langle 1\right|_{i}+a_{{\rm L}}^{\dagger}\left|1\right\rangle \!\!\left\langle 2\right|_{i}\right)-\Delta_{{\rm L}}a_{{\rm L}}^{\dagger}a_{{\rm L}}+\frac{\Omega_{{\rm L}}}{2}\sum_{i}\left(\left|2\right\rangle \!\!\left\langle 1\right|_{i}+\left|1\right\rangle \!\!\left\langle 2\right|_{i}\right).
+\end{align*}
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -1014,13 +1056,21 @@ We need to consider the discrete Wigner function, for this we need to reconsider
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align}
-\sigma_{30,i}^{z} & =\sigma_{33,i}-\sigma_{00,i},\\
-\sigma_{31,i}^{z} & =\sigma_{33,i}-\sigma_{11,i},\\
-\sigma_{32,i}^{z} & =\sigma_{33,i}-\sigma_{22,i},\\
-\sigma_{20,i}^{z} & =\sigma_{22,i}-\sigma_{00,i},\\
+\sigma_{10,i}^{z} & =\sigma_{11,i}-\sigma_{00,i},\\
 \sigma_{21,i}^{z} & =\sigma_{22,i}-\sigma_{11,i},\\
-\sigma_{10,i}^{z} & =\sigma_{11,i}-\sigma_{00,i}.
+\sigma_{32,i}^{z} & =\sigma_{33,i}-\sigma_{22,i}.
 \end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\sigma_{33,i}-\sigma_{00,i}=\sigma_{32,i}^{z}+\sigma_{21,i}^{z}+\sigma_{10,i}^{z}.
+\end{equation}
 
 \end_inset
 
@@ -1144,10 +1194,6 @@ The system of differential equations is:
 \size footnotesize
 \begin_inset Formula 
 \begin{align}
-\partial_{t}s_{00,i} & =-g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{30,i}^{y}+\alpha_{{\rm R},y}s_{30,i}^{x}\right)-\frac{\Omega_{{\rm R}}}{2}s_{30,i}^{y},\\
-\partial_{t}s_{11,i} & =-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{21,i}^{y}+\alpha_{{\rm L},y}s_{21,i}^{x}\right)-\frac{\Omega_{{\rm L}}}{2}s_{21,i}^{y},\\
-\partial_{t}s_{22,i} & =g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{21,i}^{y}+\alpha_{{\rm L},y}s_{21,i}^{x}\right)+\frac{\Omega_{{\rm L}}}{2}s_{21,i}^{y},\\
-\partial_{t}s_{33,i} & =g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{30,i}^{y}+\alpha_{{\rm R},y}s_{30,i}^{x}\right)+\frac{\Omega_{{\rm R}}}{2}s_{30,i}^{y},\\
 \partial_{t}s_{10,i}^{x} & =-g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{31,i}^{y}+\alpha_{{\rm R},y}s_{31,i}^{x}\right)-\frac{\Omega_{{\rm R}}}{2}s_{31,i}^{y}-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{20,i}^{y}+\alpha_{{\rm L},y}s_{20,i}^{x}\right)-\frac{\Omega_{{\rm L}}}{2}s_{20,i}^{y},\\
 \partial_{t}s_{20,i}^{x} & =-g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{32,i}^{y}+\alpha_{{\rm R},y}s_{32,i}^{x}\right)-\frac{\Omega_{{\rm R}}}{2}s_{32,i}^{y}-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{10,i}^{y}-\alpha_{{\rm L},y}s_{10,i}^{x}\right)-\frac{\Omega_{{\rm L}}}{2}s_{10,i}^{y},\\
 \partial_{t}s_{30,i}^{x} & =-2g_{{\rm R}}\alpha_{{\rm R},y}\left(s_{33,i}-s_{00,i}\right),\\
@@ -1160,10 +1206,14 @@ The system of differential equations is:
 \partial_{t}s_{21,i}^{y} & =-\left(2g_{{\rm L}}\alpha_{{\rm L},x}+\Omega_{{\rm L}}\right)\left(s_{22,i}-s_{11,i}\right),\\
 \partial_{t}s_{31,i}^{y} & =g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{10,i}^{x}-\alpha_{{\rm R},y}s_{10,i}^{y}\right)+\frac{\Omega_{{\rm R}}}{2}s_{10,i}^{x}-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{32,i}^{x}+\alpha_{{\rm L},y}s_{32,i}^{y}\right)-\frac{\Omega_{{\rm L}}}{2}s_{32,i}^{x},\\
 \partial_{t}s_{32,i}^{y} & =g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{20,i}^{x}-\alpha_{{\rm R},y}s_{20,i}^{y}\right)+\frac{\Omega_{{\rm R}}}{2}s_{20,i}^{x}-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{31,i}^{x}-\alpha_{{\rm L},y}s_{31,i}^{y}\right)-\frac{\Omega_{{\rm L}}}{2}s_{31,i}^{x},\\
-\partial_{t}\alpha_{{\rm L},x} & =-\frac{g_{{\rm L}}}{2}\sum_{i}s_{21,i}^{y}-\Delta_{{\rm L}}\alpha_{{\rm L},y}-\frac{\kappa_{{\rm L}}}{2}\alpha_{{\rm L},x}+\sqrt{\frac{\kappa_{{\rm L}}}{4}}{\rm d}W_{0},\\
-\partial_{t}\alpha_{{\rm L},y} & =-\frac{g_{{\rm L}}}{2}\sum_{i}s_{21,i}^{x}+\Delta_{{\rm L}}\alpha_{{\rm L},x}-\frac{\kappa_{{\rm L}}}{2}\alpha_{{\rm L},y}+\sqrt{\frac{\kappa_{{\rm L}}}{4}}{\rm d}W_{1},\\
-\partial_{t}\alpha_{{\rm R},x} & =-\frac{g_{{\rm R}}}{2}\sum_{i}s_{30,i}^{y}-\Delta_{{\rm R}}\alpha_{{\rm R},y}-\frac{\kappa_{{\rm R}}}{2}\alpha_{{\rm R},x}+\sqrt{\frac{\kappa_{{\rm R}}}{4}}{\rm d}W_{2},\\
-\partial_{t}\alpha_{{\rm R},y} & =-\frac{g_{{\rm R}}}{2}\sum_{i}s_{30,i}^{x}+\Delta_{{\rm R}}\alpha_{{\rm R},x}-\frac{\kappa_{{\rm R}}}{2}\alpha_{{\rm R},y}+\sqrt{\frac{\kappa_{R}}{4}}{\rm d}W_{3}.
+\partial_{t}s_{00,i} & =-g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{30,i}^{y}+\alpha_{{\rm R},y}s_{30,i}^{x}\right)-\frac{\Omega_{{\rm R}}}{2}s_{30,i}^{y},\\
+\partial_{t}s_{11,i} & =-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{21,i}^{y}+\alpha_{{\rm L},y}s_{21,i}^{x}\right)-\frac{\Omega_{{\rm L}}}{2}s_{21,i}^{y},\\
+\partial_{t}s_{22,i} & =g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{21,i}^{y}+\alpha_{{\rm L},y}s_{21,i}^{x}\right)+\frac{\Omega_{{\rm L}}}{2}s_{21,i}^{y},\\
+\partial_{t}s_{33,i} & =g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{30,i}^{y}+\alpha_{{\rm R},y}s_{30,i}^{x}\right)+\frac{\Omega_{{\rm R}}}{2}s_{30,i}^{y},\\
+\partial_{t}\alpha_{{\rm L},x} & =-\frac{g_{{\rm L}}}{2}\sum_{i}s_{21,i}^{y}-\Delta_{{\rm L}}\alpha_{{\rm L},y}-\frac{\kappa_{{\rm L}}}{2}\alpha_{{\rm L},x}+\sqrt{\frac{\kappa_{{\rm L}}}{4}}{\rm d}W_{1},\\
+\partial_{t}\alpha_{{\rm L},y} & =-\frac{g_{{\rm L}}}{2}\sum_{i}s_{21,i}^{x}+\Delta_{{\rm L}}\alpha_{{\rm L},x}-\frac{\kappa_{{\rm L}}}{2}\alpha_{{\rm L},y}+\sqrt{\frac{\kappa_{{\rm L}}}{4}}{\rm d}W_{2},\\
+\partial_{t}\alpha_{{\rm R},x} & =-\frac{g_{{\rm R}}}{2}\sum_{i}s_{30,i}^{y}-\Delta_{{\rm R}}\alpha_{{\rm R},y}-\frac{\kappa_{{\rm R}}}{2}\alpha_{{\rm R},x}+\sqrt{\frac{\kappa_{{\rm R}}}{4}}{\rm d}W_{3},\\
+\partial_{t}\alpha_{{\rm R},y} & =-\frac{g_{{\rm R}}}{2}\sum_{i}s_{30,i}^{x}+\Delta_{{\rm R}}\alpha_{{\rm R},x}-\frac{\kappa_{{\rm R}}}{2}\alpha_{{\rm R},y}+\sqrt{\frac{\kappa_{R}}{4}}{\rm d}W_{4}.
 \end{align}
 
 \end_inset
@@ -1237,12 +1287,12 @@ Summarizing:
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align}
-L_{w} & =\frac{1}{2}\sum_{i}\sigma_{21,i}^{w},\\
-R_{w} & =\frac{1}{2}\sum_{i}\sigma_{30,i}^{w},\\
-E_{w} & =\frac{1}{2}\sum_{i}\sigma_{32,i}^{w},\\
 G_{w} & =\frac{1}{2}\sum_{i}\sigma_{10,i}^{w},\\
 M_{w} & =\frac{1}{2}\sum_{i}\sigma_{20,i}^{w},\\
-P_{w} & =\frac{1}{2}\sum_{i}\sigma_{31,i}^{w}.
+R_{w} & =\frac{1}{2}\sum_{i}\sigma_{30,i}^{w},\\
+L_{w} & =\frac{1}{2}\sum_{i}\sigma_{21,i}^{w},\\
+P_{w} & =\frac{1}{2}\sum_{i}\sigma_{31,i}^{w},\\
+E_{w} & =\frac{1}{2}\sum_{i}\sigma_{32,i}^{w}.
 \end{align}
 
 \end_inset
@@ -1251,7 +1301,12 @@ P_{w} & =\frac{1}{2}\sum_{i}\sigma_{31,i}^{w}.
 \end_layout
 
 \begin_layout Standard
-Our estimation operators are the 16 elements found previously, such that:
+with 
+\begin_inset Formula $w=x,y$
+\end_inset
+
+.
+ Our estimation operators are the 16 elements found previously, such that:
 \end_layout
 
 \begin_layout Standard
@@ -1260,6 +1315,128 @@ Our estimation operators are the 16 elements found previously, such that:
 \left\langle \sigma_{ab,i}^{k}\right\rangle \left(t\right) & \simeq\frac{1}{n_{t}}\sum_{n=1}^{n_{t}}s_{nab,i}^{k}\left(t\right),\\
 \left\langle \left\{ \sigma_{ab,i}^{k},\sigma_{a^{\prime}b^{\prime},i^{\prime}}^{k^{\prime}}\right\} _{{\rm sym}}\right\rangle \left(t\right) & \simeq\frac{1}{n_{t}}\sum_{n=1}^{n_{t}}s_{nab,i}^{k}\left(t\right)s_{na^{\prime}b^{\prime},i^{\prime}}^{k^{\prime}}\left(t\right),\\
 \left\langle \left(a_{\gamma}^{\dagger}\right)^{k}a_{\gamma^{\prime}}^{l}\right\rangle \lvert_{{\rm sym}}\left(t\right) & \simeq\frac{1}{n_{t}}\sum_{n=1}^{n_{t}}\left(\alpha_{n\gamma}^{*}\left(t\right)\right)^{k}\alpha_{n\gamma^{\prime}}^{l}\left(t\right).
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We need to come back to the generators of 
+\begin_inset Formula ${\rm SU}\left(N\right)$
+\end_inset
+
+, these are composed by 
+\begin_inset Formula $n^{2}-1$
+\end_inset
+
+ skew-hermitian matrices that satisfies:
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+\begin_inset Formula 
+\begin{align}
+\partial_{t}s_{10,i}^{x} & =-g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{31,i}^{y}+\alpha_{{\rm R},y}s_{31,i}^{x}\right)-\frac{\Omega_{{\rm R}}}{2}s_{31,i}^{y}-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{20,i}^{y}+\alpha_{{\rm L},y}s_{20,i}^{x}\right)-\frac{\Omega_{{\rm L}}}{2}s_{20,i}^{y},\\
+\partial_{t}s_{20,i}^{x} & =-g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{32,i}^{y}+\alpha_{{\rm R},y}s_{32,i}^{x}\right)-\frac{\Omega_{{\rm R}}}{2}s_{32,i}^{y}-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{10,i}^{y}-\alpha_{{\rm L},y}s_{10,i}^{x}\right)-\frac{\Omega_{{\rm L}}}{2}s_{10,i}^{y},\\
+\partial_{t}s_{30,i}^{x} & =-2g_{{\rm R}}\alpha_{{\rm R},y}\left(s_{32,i}^{z}+s_{21,i}^{z}+s_{10,i}^{z}\right),\\
+\partial_{t}s_{21,i}^{x} & =-2g_{{\rm L}}\alpha_{{\rm L},y}s_{21,i}^{z},\\
+\partial_{t}s_{31,i}^{x} & =g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{10,i}^{y}+\alpha_{{\rm R},y}s_{10,i}^{x}\right)+\frac{\Omega_{{\rm R}}}{2}s_{10.i}^{y}+g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{32,i}^{y}-\alpha_{{\rm L},y}s_{32,i}^{x}\right)+\frac{\Omega_{{\rm L}}}{2}s_{32,i}^{y},\\
+\partial_{t}s_{32,i}^{x} & =g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{20,i}^{y}+\alpha_{{\rm R},y}s_{20,i}^{x}\right)+\frac{\Omega_{{\rm R}}}{2}s_{20,i}^{y}+g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{31,i}^{y}+\alpha_{{\rm L},y}s_{31,i}^{x}\right)+\frac{\Omega_{{\rm L}}}{2}s_{31,i}^{y},\\
+\partial_{t}s_{10,i}^{y} & =-g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{31,i}^{x}-\alpha_{{\rm R},y}s_{31,i}^{y}\right)-\frac{\Omega_{{\rm R}}}{2}s_{31,i}^{x}+g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{20,i}^{x}-\alpha_{{\rm L},y}s_{20,i}^{y}\right)+\frac{\Omega_{{\rm L}}}{2}s_{20,i}^{x},\\
+\partial_{t}s_{20,i}^{y} & =-g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{32,i}^{x}-\alpha_{{\rm R},y}s_{32,i}^{y}\right)-\frac{\Omega_{{\rm R}}}{2}s_{32,i}^{x}+g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{10,i}^{x}+\alpha_{{\rm L},y}s_{10,i}^{y}\right)+\frac{\Omega_{{\rm L}}}{2}s_{10,i}^{x},\\
+\partial_{t}s_{30,i}^{y} & =-\left(2g_{{\rm R}}\alpha_{{\rm R},x}+\Omega_{{\rm R}}\right)\left(s_{32,i}^{z}+s_{21,i}^{z}+s_{10,i}^{z}\right),\\
+\partial_{t}s_{21,i}^{y} & =-\left(2g_{{\rm L}}\alpha_{{\rm L},x}+\Omega_{{\rm L}}\right)s_{21,i}^{z},\\
+\partial_{t}s_{31,i}^{y} & =g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{10,i}^{x}-\alpha_{{\rm R},y}s_{10,i}^{y}\right)+\frac{\Omega_{{\rm R}}}{2}s_{10,i}^{x}-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{32,i}^{x}+\alpha_{{\rm L},y}s_{32,i}^{y}\right)-\frac{\Omega_{{\rm L}}}{2}s_{32,i}^{x},\\
+\partial_{t}s_{32,i}^{y} & =g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{20,i}^{x}-\alpha_{{\rm R},y}s_{20,i}^{y}\right)+\frac{\Omega_{{\rm R}}}{2}s_{20,i}^{x}-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{31,i}^{x}-\alpha_{{\rm L},y}s_{31,i}^{y}\right)-\frac{\Omega_{{\rm L}}}{2}s_{31,i}^{x},\\
+\\
+\partial_{t}s_{10,i}^{z} & =g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{30,i}^{y}+\alpha_{{\rm R},y}s_{30,i}^{x}\right)-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{21,i}^{y}+\alpha_{{\rm L},y}s_{21,i}^{x}\right)+\frac{\Omega_{{\rm R}}}{2}s_{30,i}^{y}-\frac{\Omega_{{\rm L}}}{2}s_{21,i}^{y},\\
+\partial_{t}s_{21,i}^{z} & =2g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{21,i}^{y}+\alpha_{{\rm L},y}s_{21,i}^{x}\right)+\Omega_{{\rm L}}s_{21,i}^{y},\\
+\partial_{t}s_{32,i}^{z} & =g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{30,i}^{y}+\alpha_{{\rm R},y}s_{30,i}^{x}\right)-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{21,i}^{y}+\alpha_{{\rm L},y}s_{21,i}^{x}\right)+\frac{\Omega_{{\rm R}}}{2}s_{30,i}^{y}-\frac{\Omega_{{\rm L}}}{2}s_{21,i}^{y},\\
+\\
+\partial_{t}\alpha_{{\rm R},x} & =-\frac{g_{{\rm R}}}{2}\sum_{i}s_{30,i}^{y}-\Delta_{{\rm R}}\alpha_{{\rm R},y}-\frac{\kappa_{{\rm R}}}{2}\alpha_{{\rm R},x}+\sqrt{\frac{\kappa_{{\rm R}}}{4}}{\rm d}W_{3},\\
+\partial_{t}\alpha_{{\rm R},y} & =-\frac{g_{{\rm R}}}{2}\sum_{i}s_{30,i}^{x}+\Delta_{{\rm R}}\alpha_{{\rm R},x}-\frac{\kappa_{{\rm R}}}{2}\alpha_{{\rm R},y}+\sqrt{\frac{\kappa_{R}}{4}}{\rm d}W_{4}.\\
+\partial_{t}\alpha_{{\rm L},x} & =-\frac{g_{{\rm L}}}{2}\sum_{i}s_{21,i}^{y}-\Delta_{{\rm L}}\alpha_{{\rm L},y}-\frac{\kappa_{{\rm L}}}{2}\alpha_{{\rm L},x}+\sqrt{\frac{\kappa_{{\rm L}}}{4}}{\rm d}W_{1},\\
+\partial_{t}\alpha_{{\rm L},y} & =-\frac{g_{{\rm L}}}{2}\sum_{i}s_{21,i}^{x}+\Delta_{{\rm L}}\alpha_{{\rm L},x}-\frac{\kappa_{{\rm L}}}{2}\alpha_{{\rm L},y}+\sqrt{\frac{\kappa_{{\rm L}}}{4}}{\rm d}W_{2},
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The WDD is:
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
+W_{{\rm D}}\left(\overrightarrow{s_{i}}\right) & =\frac{1}{2^{9}}\left(\delta\left(s_{10,i}^{x}+1\right)+\delta\left(s_{10,i}^{x}-1\right)\right)\left(\delta\left(s_{20,i}^{x}+1\right)+\delta\left(s_{20,i}^{x}-1\right)\right)\left(\delta\left(s_{30,i}^{x}+1\right)+\delta\left(s_{30,i}^{x}-1\right)\right)\\
+ & \,\,\,\,\,\times\delta\left(s_{21,i}^{x}\right)\delta\left(s_{31,i}^{x}\right)\delta\left(s_{32,i}^{x}\right)\left(\delta\left(s_{10,i}^{y}+1\right)+\delta\left(s_{10,i}^{y}-1\right)\right)\left(\delta\left(s_{20,i}^{y}+1\right)+\delta\left(s_{20,i}^{y}-1\right)\right)\left(\delta\left(s_{30,i}^{y}+1\right)+\delta\left(s_{30,i}^{y}-1\right)\right)\\
+ & \,\,\,\,\,\times\delta\left(s_{21,i}^{y}\right)\delta\left(s_{31,i}^{y}\right)\delta\left(s_{32,i}^{y}\right)\left(\delta\left(s_{10,i}^{z}+1\right)+\delta\left(s_{10,i}^{z}-1\right)\right)\delta\left(s_{21,i}^{z}\right)\delta\left(s_{32,i}^{z}\right).
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the notation of the code:
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+\begin_inset Formula 
+\begin{align}
+\\
+\\
+\\
+ & =s_{33,i}-s_{00,i},\\
+ & =s_{22,i}-s_{11,i},\\
+\\
+\partial_{t}s_{10,i}^{z} & =g_{{\rm R}}\left(\alpha_{{\rm R},y}s_{30,i}^{x}+\alpha_{{\rm R},x}s_{30,i}^{y}\right)-g_{{\rm L}}\left(\alpha_{{\rm L},y}s_{21,i}^{x}+\alpha_{{\rm L},x}s_{21,i}^{y}\right)+\frac{\Omega_{{\rm R}}}{2}s_{30,i}^{y}-\frac{\Omega_{{\rm L}}}{2}s_{21,i}^{y},\\
+\partial_{t}s_{21,i}^{z} & =2g_{{\rm L}}\left(\alpha_{{\rm L},y}s_{21,i}^{x}+\alpha_{{\rm L},x}s_{21,i}^{y}\right)+\Omega_{{\rm L}}s_{21,i}^{y},\\
+\partial_{t}s_{32,i}^{z} & =g_{{\rm R}}\left(\alpha_{{\rm R},y}s_{30,i}^{x}+\alpha_{{\rm R},x}s_{30,i}^{y}\right)-g_{{\rm L}}\left(\alpha_{{\rm L},y}s_{21,i}^{x}+\alpha_{{\rm L},x}s_{21,i}^{y}\right)+\frac{\Omega_{{\rm R}}}{2}s_{30,i}^{y}-\frac{\Omega_{{\rm L}}}{2}s_{21,i}^{y},\\
+\\
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size footnotesize
+\begin_inset Formula 
+\begin{align}
+\partial_{t}s_{10,i}^{x}{\rm Res}\left[0\right]\left[\right] & =-g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{31,i}^{y}+\alpha_{{\rm R},y}s_{31,i}^{x}\right)-\frac{\Omega_{{\rm R}}}{2}s_{31,i}^{y}-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{20,i}^{y}+\alpha_{{\rm L},y}s_{20,i}^{x}\right)-\frac{\Omega_{{\rm L}}}{2}s_{20,i}^{y},\\
+\partial_{t}s_{20,i}^{x} & =-g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{32,i}^{y}+\alpha_{{\rm R},y}s_{32,i}^{x}\right)-\frac{\Omega_{{\rm R}}}{2}s_{32,i}^{y}-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{10,i}^{y}-\alpha_{{\rm L},y}s_{10,i}^{x}\right)-\frac{\Omega_{{\rm L}}}{2}s_{10,i}^{y},\\
+\partial_{t}s_{30,i}^{x} & =-2g_{{\rm R}}\alpha_{{\rm R},y}\left(s_{33,i}-s_{00,i}\right),\\
+\partial_{t}s_{21,i}^{x} & =-2g_{{\rm L}}\alpha_{{\rm L},y}\left(s_{22,i}-s_{11,i}\right),\\
+\partial_{t}s_{31,i}^{x} & =g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{10,i}^{y}+\alpha_{{\rm R},y}s_{10,i}^{x}\right)+\frac{\Omega_{{\rm R}}}{2}s_{10.i}^{y}+g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{32,i}^{y}-\alpha_{{\rm L},y}s_{32,i}^{x}\right)+\frac{\Omega_{{\rm L}}}{2}s_{32,i}^{y},\\
+\partial_{t}s_{32,i}^{x} & =g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{20,i}^{y}+\alpha_{{\rm R},y}s_{20,i}^{x}\right)+\frac{\Omega_{{\rm R}}}{2}s_{20,i}^{y}+g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{31,i}^{y}+\alpha_{{\rm L},y}s_{31,i}^{x}\right)+\frac{\Omega_{{\rm L}}}{2}s_{31,i}^{y},\\
+\partial_{t}s_{10,i}^{y} & =-g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{31,i}^{x}-\alpha_{{\rm R},y}s_{31,i}^{y}\right)-\frac{\Omega_{{\rm R}}}{2}s_{31,i}^{x}+g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{20,i}^{x}-\alpha_{{\rm L},y}s_{20,i}^{y}\right)+\frac{\Omega_{{\rm L}}}{2}s_{20,i}^{x},\\
+\partial_{t}s_{20,i}^{y} & =-g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{32,i}^{x}-\alpha_{{\rm R},y}s_{32,i}^{y}\right)-\frac{\Omega_{{\rm R}}}{2}s_{32,i}^{x}+g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{10,i}^{x}+\alpha_{{\rm L},y}s_{10,i}^{y}\right)+\frac{\Omega_{{\rm L}}}{2}s_{10,i}^{x},\\
+\partial_{t}s_{30,i}^{y} & =-\left(2g_{{\rm R}}\alpha_{{\rm R},x}+\Omega_{{\rm R}}\right)\left(s_{33,i}-s_{00,i}\right),\\
+\partial_{t}s_{21,i}^{y} & =-\left(2g_{{\rm L}}\alpha_{{\rm L},x}+\Omega_{{\rm L}}\right)\left(s_{22,i}-s_{11,i}\right),\\
+\partial_{t}s_{31,i}^{y} & =g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{10,i}^{x}-\alpha_{{\rm R},y}s_{10,i}^{y}\right)+\frac{\Omega_{{\rm R}}}{2}s_{10,i}^{x}-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{32,i}^{x}+\alpha_{{\rm L},y}s_{32,i}^{y}\right)-\frac{\Omega_{{\rm L}}}{2}s_{32,i}^{x},\\
+\partial_{t}s_{32,i}^{y} & =g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{20,i}^{x}-\alpha_{{\rm R},y}s_{20,i}^{y}\right)+\frac{\Omega_{{\rm R}}}{2}s_{20,i}^{x}-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{31,i}^{x}-\alpha_{{\rm L},y}s_{31,i}^{y}\right)-\frac{\Omega_{{\rm L}}}{2}s_{31,i}^{x},\\
+\partial_{t}s_{00,i} & =-g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{30,i}^{y}+\alpha_{{\rm R},y}s_{30,i}^{x}\right)-\frac{\Omega_{{\rm R}}}{2}s_{30,i}^{y},\\
+\partial_{t}s_{11,i} & =-g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{21,i}^{y}+\alpha_{{\rm L},y}s_{21,i}^{x}\right)-\frac{\Omega_{{\rm L}}}{2}s_{21,i}^{y},\\
+\partial_{t}s_{22,i} & =g_{{\rm L}}\left(\alpha_{{\rm L},x}s_{21,i}^{y}+\alpha_{{\rm L},y}s_{21,i}^{x}\right)+\frac{\Omega_{{\rm L}}}{2}s_{21,i}^{y},\\
+\partial_{t}s_{33,i} & =g_{{\rm R}}\left(\alpha_{{\rm R},x}s_{30,i}^{y}+\alpha_{{\rm R},y}s_{30,i}^{x}\right)+\frac{\Omega_{{\rm R}}}{2}s_{30,i}^{y},\\
+\partial_{t}\alpha_{{\rm L},x} & =-\frac{g_{{\rm L}}}{2}\sum_{i}s_{21,i}^{y}-\Delta_{{\rm L}}\alpha_{{\rm L},y}-\frac{\kappa_{{\rm L}}}{2}\alpha_{{\rm L},x}+\sqrt{\frac{\kappa_{{\rm L}}}{4}}{\rm d}W_{1},\\
+\partial_{t}\alpha_{{\rm L},y} & =-\frac{g_{{\rm L}}}{2}\sum_{i}s_{21,i}^{x}+\Delta_{{\rm L}}\alpha_{{\rm L},x}-\frac{\kappa_{{\rm L}}}{2}\alpha_{{\rm L},y}+\sqrt{\frac{\kappa_{{\rm L}}}{4}}{\rm d}W_{2},\\
+\partial_{t}\alpha_{{\rm R},x} & =-\frac{g_{{\rm R}}}{2}\sum_{i}s_{30,i}^{y}-\Delta_{{\rm R}}\alpha_{{\rm R},y}-\frac{\kappa_{{\rm R}}}{2}\alpha_{{\rm R},x}+\sqrt{\frac{\kappa_{{\rm R}}}{4}}{\rm d}W_{3},\\
+\partial_{t}\alpha_{{\rm R},y} & =-\frac{g_{{\rm R}}}{2}\sum_{i}s_{30,i}^{x}+\Delta_{{\rm R}}\alpha_{{\rm R},x}-\frac{\kappa_{{\rm R}}}{2}\alpha_{{\rm R},y}+\sqrt{\frac{\kappa_{R}}{4}}{\rm d}W_{4}.
 \end{align}
 
 \end_inset
