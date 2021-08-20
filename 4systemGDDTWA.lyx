@@ -753,7 +753,7 @@ Now we will deduce the equations:
 \end_layout
 
 \begin_layout Standard
-9) 
+10) 
 \begin_inset Formula $\varLambda_{20,i}^{y}=\frac{1}{\sqrt{2}{\rm i}}\left(\left|0\right\rangle \!\!\left\langle 2\right|_{i}-\left|2\right\rangle \!\!\left\langle 0\right|_{i}\right)$
 \end_inset
 
@@ -810,16 +810,453 @@ Now we will deduce the equations:
  & \,\,\,\,\,+{\rm i}g_{{\rm L}}\left(\varLambda_{10,i}^{x}{\rm i}{\rm Re}\left(a_{{\rm L}}\right)+\varLambda_{10,i}^{y}\left(-{\rm i}{\rm Im}\left(a_{{\rm L}}\right)\right)\right)-\frac{\Omega_{{\rm L}}}{2}\varLambda_{10,i}^{y}\\
  & ={\rm i}g_{{\rm R}}\left(\varLambda_{32,i}^{x}{\rm i}\left(-{\rm Re}\left(a_{{\rm R}}\right)\right)+\varLambda_{32,i}^{y}\left(-{\rm i}{\rm Im}\left(a_{{\rm R}}\right)\right)\right)+\frac{\Omega_{{\rm R}}}{2}\varLambda_{32,i}^{x}\\
  & \,\,\,\,\,+{\rm i}g_{{\rm L}}\left(\varLambda_{10,i}^{x}{\rm i}{\rm Re}\left(a_{{\rm L}}\right)+\varLambda_{10,i}^{y}\left(-{\rm i}{\rm Im}\left(a_{{\rm L}}\right)\right)\right)-\frac{\Omega_{{\rm L}}}{2}\varLambda_{10,i}^{y}\\
-\\
-\\
-\\
-\\
- & ={\rm i}g_{{\rm R}}\left(\varLambda_{31,i}^{x}\left(-\frac{a_{{\rm R}}}{2}{\rm i}-\frac{a_{{\rm R}}^{\dagger}}{2}{\rm i}\right)+\varLambda_{31,i}^{y}\left(-\frac{a_{{\rm R}}}{2}+\frac{a_{{\rm R}}^{\dagger}}{2}\right)\right)+\frac{\Omega_{{\rm R}}}{2}\varLambda_{31,i}^{x}\\
- & \,\,\,\,\,+{\rm i}g_{{\rm L}}\left(\varLambda_{20,i}^{x}\left(\frac{a_{{\rm L}}}{2}{\rm i}+\frac{a_{{\rm L}}^{\dagger}}{2}{\rm i}\right)+\varLambda_{20,i}^{y}\left(\frac{a_{{\rm L}}}{2}-\frac{a_{{\rm L}}^{\dagger}}{2}\right)\right)-\frac{\Omega_{{\rm L}}}{2}\varLambda_{20,i}^{x}\\
- & ={\rm i}g_{{\rm R}}\left(\varLambda_{31,i}^{x}\left(-{\rm i}{\rm Re}\left(a_{{\rm R}}\right)\right)+\varLambda_{31,i}^{y}\left(-{\rm i}{\rm Im}\left(a_{{\rm R}}\right)\right)\right)+\frac{\Omega_{{\rm R}}}{2}\varLambda_{31,i}^{x}\\
- & \,\,\,\,\,+{\rm i}g_{{\rm L}}\left(\varLambda_{20,i}^{x}{\rm i}{\rm Re}\left(a_{{\rm L}}\right)+\varLambda_{20,i}^{y}{\rm i}{\rm Im}\left(a_{{\rm L}}\right)\right)-\frac{\Omega_{{\rm L}}}{2}\varLambda_{20,i}^{x}\\
- & =g_{{\rm R}}\left(\varLambda_{31,i}^{x}{\rm Re}\left(a_{{\rm R}}\right)+\varLambda_{31,i}^{y}{\rm Im}\left(a_{{\rm R}}\right)\right)+\frac{\Omega_{{\rm R}}}{2}\varLambda_{31,i}^{x}\\
- & \,\,\,\,\,-g_{{\rm L}}\left(\varLambda_{20,i}^{x}{\rm Re}\left(a_{{\rm L}}\right)+\varLambda_{20,i}^{y}{\rm Im}\left(a_{{\rm L}}\right)\right)-\frac{\Omega_{{\rm L}}}{2}\varLambda_{20,i}^{x}.
+ & =g_{{\rm R}}\left(\varLambda_{32,i}^{x}{\rm Re}\left(a_{{\rm R}}\right)+\varLambda_{32,i}^{y}{\rm Im}\left(a_{{\rm R}}\right)\right)+\frac{\Omega_{{\rm R}}}{2}\varLambda_{32,i}^{x}\\
+ & \,\,\,\,\,+g_{{\rm L}}\left(-\varLambda_{10,i}^{x}{\rm Re}\left(a_{{\rm L}}\right)+\varLambda_{10,i}^{y}{\rm Im}\left(a_{{\rm L}}\right)\right)-\frac{\Omega_{{\rm L}}}{2}\varLambda_{10,i}^{y}.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+11) 
+\begin_inset Formula $\varLambda_{30,i}^{y}=\frac{1}{\sqrt{2}{\rm i}}\left(\left|0\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\left[a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i},\varLambda_{30,i}^{y}\right] & =\left[a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i},\frac{1}{\sqrt{2}{\rm i}}\left(\left|0\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right)\right]\\
+ & =\frac{a_{{\rm R}}}{\sqrt{2}{\rm i}}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i},\left|0\right\rangle \!\!\left\langle 3\right|_{i}\right]\\
+ & =\frac{a_{{\rm R}}}{\sqrt{2}{\rm i}}\left(\left|3\right\rangle \!\!\left\langle 3\right|_{i}-\left|0\right\rangle \!\!\left\langle 0\right|_{i}\right)\\
+ & =\frac{a_{{\rm R}}}{\sqrt{2}{\rm i}}\left(\frac{\mathbb{I}}{4}-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{2}-\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}+\frac{\mathbb{I}}{4}\right)\right)\\
+ & =\frac{a_{{\rm R}}}{\sqrt{2}{\rm i}}\left(-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{2}-\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}-\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}\right)\\
+ & =\frac{a_{{\rm R}}}{\sqrt{2}{\rm i}}\left(-\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}-\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{2}\right)\\
+ & =-\frac{a_{{\rm R}}}{\sqrt{2}{\rm i}}\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{2\sqrt{3}\varLambda_{3,i}^{z}}{3}\right),\\
+\left[a_{{\rm R}}^{\dagger}\left|0\right\rangle \!\!\left\langle 3\right|_{i},\varLambda_{30,i}^{y}\right] & =a_{{\rm R}}^{\dagger}\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\frac{1}{\sqrt{2}{\rm i}}\left(\left|0\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right)\right]\\
+ & =a_{{\rm R}}^{\dagger}\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\frac{1}{\sqrt{2}{\rm i}}\left(-\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right)\right]\\
+ & =-\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}{\rm i}}\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right]\\
+ & =-\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}{\rm i}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}-\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right)\\
+ & =\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}{\rm i}}\left(\left|3\right\rangle \!\!\left\langle 3\right|_{i}-\left|0\right\rangle \!\!\left\langle 0\right|_{i}\right)\\
+ & =\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}{\rm i}}\left(\frac{\mathbb{I}}{4}-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{2}-\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}+\frac{\mathbb{I}}{4}\right)\right)\\
+ & =\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}{\rm i}}\left(-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{2}-\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}-\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}\right)\\
+ & =\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}{\rm i}}\left(-\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}-\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{2}\right)\\
+ & =\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}{\rm i}}\left(-\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}-\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}-\frac{2\sqrt{3}\varLambda_{3,i}^{z}}{3}\right)\\
+ & =-\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}{\rm i}}\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{2\sqrt{3}\varLambda_{3,i}^{z}}{3}\right),\\
+\left[\frac{\Omega_{{\rm R}}}{\sqrt{2}}\varLambda_{30}^{x},\varLambda_{30,i}^{y}\right] & =\frac{\Omega_{{\rm R}}}{\sqrt{2}}\left[\varLambda_{30}^{x},\varLambda_{30,i}^{y}\right]\\
+ & =\frac{\Omega_{{\rm R}}}{2{\rm i}\sqrt{2}}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i}+\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|0\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm R}}}{2{\rm i}\sqrt{2}}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i}+\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|0\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm R}}}{2{\rm i}\sqrt{2}}\left(\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i},\left|0\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right]+\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|0\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right]\right)\\
+ & =\frac{\Omega_{{\rm R}}}{2{\rm i}\sqrt{2}}\left(\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i},\left|0\right\rangle \!\!\left\langle 3\right|_{i}\right]+\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},-\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right]\right)\\
+ & =\frac{\Omega_{{\rm R}}}{2{\rm i}\sqrt{2}}2\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i},\left|0\right\rangle \!\!\left\langle 3\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm R}}}{{\rm i}\sqrt{2}}\left(\left|3\right\rangle \!\!\left\langle 3\right|_{i}-\left|0\right\rangle \!\!\left\langle 0\right|_{i}\right)\\
+ & =-\frac{\Omega_{{\rm R}}}{{\rm i}\sqrt{2}}\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{2\sqrt{3}\varLambda_{3,i}^{z}}{3}\right),\\
+\left[a_{{\rm L}}\left|2\right\rangle \!\!\left\langle 1\right|_{i},\varLambda_{30,i}^{y}\right] & =0,\\
+\left[a_{{\rm L}}^{\dagger}\left|1\right\rangle \!\!\left\langle 2\right|_{i},\varLambda_{30,i}^{y}\right] & =0,\\
+\left[\frac{\Omega_{{\rm L}}}{\sqrt{2}}\varLambda_{21}^{x},\varLambda_{30,i}^{y}\right] & =0,\\
+\partial_{t}\varLambda_{30,i}^{y} & ={\rm i}g_{{\rm R}}\left(-\frac{a_{{\rm R}}}{\sqrt{2}{\rm i}}\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{2\sqrt{3}\varLambda_{3,i}^{z}}{3}\right)-\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}{\rm i}}\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{2\sqrt{3}\varLambda_{3,i}^{z}}{3}\right)\right)-\frac{\Omega_{{\rm R}}}{\sqrt{2}}\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{2\sqrt{3}\varLambda_{3,i}^{z}}{3}\right)\\
+ & =-\frac{g_{{\rm R}}}{\sqrt{2}}\left(a_{{\rm R}}+a_{{\rm R}}^{\dagger}\right)\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{2\sqrt{3}\varLambda_{3,i}^{z}}{3}\right)-\frac{\Omega_{{\rm R}}}{\sqrt{2}}\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{2\sqrt{3}\varLambda_{3,i}^{z}}{3}\right)\\
+ & =-\frac{1}{\sqrt{2}}\left(g_{{\rm R}}\left(a_{{\rm R}}+a_{{\rm R}}^{\dagger}\right)+\Omega_{{\rm R}}\right)\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{2\sqrt{3}\varLambda_{3,i}^{z}}{3}\right)\\
+ & =-\frac{1}{\sqrt{2}}\left(2{\rm Re}\left(a_{{\rm R}}\right)g_{{\rm R}}+\Omega_{{\rm R}}\right)\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{2\sqrt{3}\varLambda_{3,i}^{z}}{3}\right).
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+12) 
+\begin_inset Formula $\varLambda_{21,i}^{y}=\frac{1}{\sqrt{2}{\rm i}}\left(\left|1\right\rangle \!\!\left\langle 2\right|_{i}-\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\left[a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i},\varLambda_{21,i}^{y}\right] & =0,\\
+\left[a_{{\rm R}}^{\dagger}\left|0\right\rangle \!\!\left\langle 3\right|_{i},\varLambda_{21,i}^{y}\right] & =0,\\
+\left[\frac{\Omega_{{\rm R}}}{\sqrt{2}}\varLambda_{30}^{x},\varLambda_{21,i}^{y}\right] & =0,\\
+\left[a_{{\rm L}}\left|2\right\rangle \!\!\left\langle 1\right|_{i},\varLambda_{21,i}^{y}\right] & =a_{{\rm L}}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\frac{1}{\sqrt{2}{\rm i}}\left(\left|1\right\rangle \!\!\left\langle 2\right|_{i}-\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right)\right]\\
+ & =\frac{a_{{\rm L}}}{\sqrt{2}{\rm i}}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|1\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =\frac{a_{{\rm L}}}{\sqrt{2}{\rm i}}\left(\left|2\right\rangle \!\!\left\langle 2\right|_{i}-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right)\\
+ & =\frac{a_{{\rm L}}}{\sqrt{2}{\rm i}}\left(\frac{\mathbb{I}}{4}+\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}-\frac{\sqrt{6}}{3}\varLambda_{2,i}^{z}-\left(-\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}+\frac{\mathbb{I}}{4}\right)\right)\\
+ & =\frac{a_{{\rm L}}}{\sqrt{2}{\rm i}}\left(\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}-\frac{\sqrt{6}}{3}\varLambda_{2,i}^{z}+\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}-\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}\right)\\
+ & =\frac{a_{{\rm L}}}{\sqrt{2}{\rm i}}\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}-\frac{\sqrt{6}}{2}\varLambda_{2,i}^{z}\right)\\
+ & =\frac{a_{{\rm L}}}{2{\rm i}}\left(\varLambda_{1,i}^{z}-\sqrt{3}\varLambda_{2,i}^{z}\right),\\
+\left[a_{{\rm L}}^{\dagger}\left|1\right\rangle \!\!\left\langle 2\right|_{i},\varLambda_{21,i}^{y}\right] & =a_{{\rm L}}^{\dagger}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\frac{1}{\sqrt{2}{\rm i}}\left(\left|1\right\rangle \!\!\left\langle 2\right|_{i}-\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right)\right]\\
+ & =a_{{\rm L}}^{\dagger}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\frac{1}{\sqrt{2}{\rm i}}\left(-\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right)\right]\\
+ & =-\frac{a_{{\rm L}}^{\dagger}}{\sqrt{2}{\rm i}}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right]\\
+ & =-\frac{a_{{\rm L}}^{\dagger}}{\sqrt{2}{\rm i}}\left(\left|1\right\rangle \!\!\left\langle 1\right|_{i}-\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right)\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{\sqrt{2}{\rm i}}\left(\left|2\right\rangle \!\!\left\langle 2\right|_{i}-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right)\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{\sqrt{2}{\rm i}}\left(\frac{\mathbb{I}}{4}+\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}-\frac{\sqrt{6}}{3}\varLambda_{2,i}^{z}-\left(-\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}+\frac{\mathbb{I}}{4}\right)\right)\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{\sqrt{2}{\rm i}}\left(\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}-\frac{\sqrt{6}}{3}\varLambda_{2,i}^{z}-\left(-\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}\right)\right)\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{\sqrt{2}{\rm i}}\left(\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}-\frac{\sqrt{6}}{3}\varLambda_{2,i}^{z}+\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}-\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}\right)\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{\sqrt{2}{\rm i}}\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}-\frac{\sqrt{6}}{2}\varLambda_{2,i}^{z}\right)\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{2{\rm i}}\left(\varLambda_{1,i}^{z}-\sqrt{3}\varLambda_{2,i}^{z}\right),\\
+\left[\frac{\Omega_{{\rm L}}}{\sqrt{2}}\varLambda_{21}^{x},\varLambda_{21,i}^{y}\right] & =\frac{\Omega_{{\rm L}}}{\sqrt{2}}\left[\varLambda_{21}^{x},\varLambda_{21,i}^{y}\right]\\
+ & =\frac{\Omega_{{\rm L}}}{\sqrt{2}}\left[\frac{1}{\sqrt{2}}\left(\left|1\right\rangle \!\!\left\langle 2\right|_{i}+\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right),\frac{1}{\sqrt{2}{\rm i}}\left(\left|1\right\rangle \!\!\left\langle 2\right|_{i}-\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right)\right]\\
+ & =\frac{\Omega_{{\rm L}}}{2{\rm i}\sqrt{2}}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i}+\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|1\right\rangle \!\!\left\langle 2\right|_{i}-\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm L}}}{2{\rm i}\sqrt{2}}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i}+\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|1\right\rangle \!\!\left\langle 2\right|_{i}-\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm L}}}{2{\rm i}\sqrt{2}}\left(\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|1\right\rangle \!\!\left\langle 2\right|_{i}-\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right]+\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|1\right\rangle \!\!\left\langle 2\right|_{i}-\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right]\right)\\
+ & =\frac{\Omega_{{\rm L}}}{2{\rm i}\sqrt{2}}\left(\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},-\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right]+\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|1\right\rangle \!\!\left\langle 2\right|_{i}\right]\right)\\
+ & =\frac{\Omega_{{\rm L}}}{{\rm i}\sqrt{2}}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|1\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm L}}}{{\rm i}\sqrt{2}}\left(\left|2\right\rangle \!\!\left\langle 2\right|_{i}-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right)\\
+ & =\frac{\Omega_{{\rm L}}}{{\rm i}\sqrt{2}}\left(\frac{\mathbb{I}}{4}+\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}-\frac{\sqrt{6}}{3}\varLambda_{2,i}^{z}-\left(-\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}+\frac{\mathbb{I}}{4}\right)\right)\\
+ & =\frac{\Omega_{{\rm L}}}{{\rm i}\sqrt{2}}\left(\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}-\frac{\sqrt{6}}{3}\varLambda_{2,i}^{z}+\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}-\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}\right)\\
+ & =\frac{\Omega_{{\rm L}}}{{\rm i}\sqrt{2}}\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}-\frac{\sqrt{6}}{2}\varLambda_{2,i}^{z}\right)\\
+ & =\frac{\Omega_{{\rm L}}}{2{\rm i}}\left(\varLambda_{1,i}^{z}-\sqrt{3}\varLambda_{2,i}^{z}\right),\\
+\partial_{t}\varLambda_{21,i}^{y} & ={\rm i}g_{{\rm L}}\left(\frac{a_{{\rm L}}}{2{\rm i}}\left(\varLambda_{1,i}^{z}-\sqrt{3}\varLambda_{2,i}^{z}\right)+\frac{a_{{\rm L}}^{\dagger}}{2{\rm i}}\left(\varLambda_{1,i}^{z}-\sqrt{3}\varLambda_{2,i}^{z}\right)\right)+\frac{\Omega_{{\rm L}}}{2}\left(\varLambda_{1,i}^{z}-\sqrt{3}\varLambda_{2,i}^{z}\right)\\
+ & =g_{{\rm L}}\left(\frac{a_{{\rm L}}}{2}\left(\varLambda_{1,i}^{z}-\sqrt{3}\varLambda_{2,i}^{z}\right)+\frac{a_{{\rm L}}^{\dagger}}{2}\left(\varLambda_{1,i}^{z}-\sqrt{3}\varLambda_{2,i}^{z}\right)\right)+\frac{\Omega_{{\rm L}}}{2}\left(\varLambda_{1,i}^{z}-\sqrt{3}\varLambda_{2,i}^{z}\right)\\
+ & =\left(g_{{\rm L}}\left(\frac{a_{{\rm L}}}{2}+\frac{a_{{\rm L}}^{\dagger}}{2}\right)+\frac{\Omega_{{\rm L}}}{2}\right)\left(\varLambda_{1,i}^{z}-\sqrt{3}\varLambda_{2,i}^{z}\right)\\
+ & =\left(g_{{\rm L}}{\rm Re}\left(a_{{\rm L}}\right)+\frac{\Omega_{{\rm L}}}{2}\right)\left(\varLambda_{1,i}^{z}-\sqrt{3}\varLambda_{2,i}^{z}\right).
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+13) 
+\begin_inset Formula $\varLambda_{31,i}^{y}=\frac{1}{\sqrt{2}{\rm i}}\left(\left|1\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 1\right|_{i}\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\left[a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i},\varLambda_{31,i}^{y}\right] & =\left[a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i},\frac{1}{\sqrt{2}{\rm i}}\left(\left|1\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 1\right|_{i}\right)\right]\\
+ & =\frac{a_{{\rm R}}}{\sqrt{2}{\rm i}}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i},\left|1\right\rangle \!\!\left\langle 3\right|_{i}\right]\\
+ & =-\frac{a_{{\rm R}}}{\sqrt{2}{\rm i}}\left|1\right\rangle \!\!\left\langle 0\right|_{i}\\
+ & =-\frac{a_{{\rm R}}}{\sqrt{2}{\rm i}}\left(\frac{\varLambda_{10,i}^{x}-{\rm i}\varLambda_{10,i}^{y}}{\sqrt{2}}\right)\\
+ & =-\frac{a_{{\rm R}}}{2{\rm i}}\left(\varLambda_{10,i}^{x}-{\rm i}\varLambda_{10,i}^{y}\right),\\
+\left[a_{{\rm R}}^{\dagger}\left|0\right\rangle \!\!\left\langle 3\right|_{i},\varLambda_{31,i}^{y}\right] & =a_{{\rm R}}^{\dagger}\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\frac{1}{\sqrt{2}{\rm i}}\left(\left|1\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 1\right|_{i}\right)\right]\\
+ & =\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}{\rm i}}\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},-\left|3\right\rangle \!\!\left\langle 1\right|_{i}\right]\\
+ & =-\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}{\rm i}}\left|0\right\rangle \!\!\left\langle 1\right|_{i}\\
+ & =-\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}{\rm i}}\left(\frac{\varLambda_{10,i}^{x}+{\rm i}\varLambda_{10,i}^{y}}{\sqrt{2}}\right)\\
+ & =-\frac{a_{{\rm R}}^{\dagger}}{2{\rm i}}\left(\varLambda_{10,i}^{x}+{\rm i}\varLambda_{10,i}^{y}\right),\\
+\left[\frac{\Omega_{{\rm R}}}{\sqrt{2}}\varLambda_{30}^{x},\varLambda_{31,i}^{y}\right] & =\frac{\Omega_{{\rm R}}}{\sqrt{2}}\left[\varLambda_{30}^{x},\varLambda_{31,i}^{y}\right]\\
+ & =\frac{\Omega_{{\rm R}}}{2{\rm i}\sqrt{2}}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i}+\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|1\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 1\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm R}}}{2{\rm i}\sqrt{2}}\left(\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i},\left|1\right\rangle \!\!\left\langle 3\right|_{i}\right]-\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|3\right\rangle \!\!\left\langle 1\right|_{i}\right]\right)\\
+ & =\frac{\Omega_{{\rm R}}}{2{\rm i}\sqrt{2}}\left(-\left|1\right\rangle \!\!\left\langle 0\right|_{i}-\left|0\right\rangle \!\!\left\langle 1\right|_{i}\right)\\
+ & =-\frac{\Omega_{{\rm R}}}{2{\rm i}}\varLambda_{10}^{x},\\
+\left[a_{{\rm L}}\left|2\right\rangle \!\!\left\langle 1\right|_{i},\varLambda_{31,i}^{y}\right] & =\left[a_{{\rm L}}\left|2\right\rangle \!\!\left\langle 1\right|_{i},\frac{1}{\sqrt{2}{\rm i}}\left(\left|1\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 1\right|_{i}\right)\right]\\
+ & =\frac{a_{{\rm L}}}{\sqrt{2}{\rm i}}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|1\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 1\right|_{i}\right]\\
+ & =\frac{a_{{\rm L}}}{\sqrt{2}{\rm i}}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|1\right\rangle \!\!\left\langle 3\right|_{i}\right]\\
+ & =\frac{a_{{\rm L}}}{\sqrt{2}{\rm i}}\left|2\right\rangle \!\!\left\langle 3\right|_{i}\\
+ & =\frac{a_{{\rm L}}}{\sqrt{2}{\rm i}}\left(\frac{\varLambda_{32,i}^{x}+{\rm i}\varLambda_{32,i}^{y}}{\sqrt{2}}\right)\\
+ & =\frac{a_{{\rm L}}}{2{\rm i}}\left(\varLambda_{32,i}^{x}+{\rm i}\varLambda_{32,i}^{y}\right),\\
+\left[a_{{\rm L}}^{\dagger}\left|1\right\rangle \!\!\left\langle 2\right|_{i},\varLambda_{31,i}^{y}\right] & =\frac{a_{{\rm L}}^{\dagger}}{{\rm i}\sqrt{2}}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|1\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 1\right|_{i}\right]\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{{\rm i}\sqrt{2}}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},-\left|3\right\rangle \!\!\left\langle 1\right|_{i}\right]\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{{\rm i}\sqrt{2}}\left|3\right\rangle \!\!\left\langle 2\right|_{i}\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{{\rm i}\sqrt{2}}\left(\frac{\varLambda_{32,i}^{x}-{\rm i}\varLambda_{32,i}^{y}}{\sqrt{2}}\right)\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{2{\rm i}}\left(\varLambda_{32,i}^{x}-{\rm i}\varLambda_{32,i}^{y}\right),\\
+\left[\frac{\Omega_{{\rm L}}}{\sqrt{2}}\varLambda_{21}^{x},\varLambda_{31,i}^{y}\right] & =\frac{\Omega_{{\rm L}}}{2{\rm i}\sqrt{2}}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i}+\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|1\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 1\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm L}}}{2{\rm i}\sqrt{2}}\left(\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|1\right\rangle \!\!\left\langle 3\right|_{i}\right]-\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|3\right\rangle \!\!\left\langle 1\right|_{i}\right]\right)\\
+ & =\frac{\Omega_{{\rm L}}}{2{\rm i}\sqrt{2}}\left(\left|2\right\rangle \!\!\left\langle 3\right|_{i}+\left|3\right\rangle \!\!\left\langle 2\right|_{i}\right)\\
+ & =\frac{\Omega_{{\rm L}}}{2{\rm i}}\varLambda_{32,i}^{y},\\
+\partial_{t}\varLambda_{31,i}^{y} & ={\rm i}g_{{\rm R}}\left(-\frac{a_{{\rm R}}}{2{\rm i}}\left(\varLambda_{10,i}^{x}-{\rm i}\varLambda_{10,i}^{y}\right)-\frac{a_{{\rm R}}^{\dagger}}{2{\rm i}}\left(\varLambda_{10,i}^{x}+{\rm i}\varLambda_{10,i}^{y}\right)\right)-\frac{\Omega_{{\rm R}}}{2}\varLambda_{10}^{x}\\
+ & \,\,\,\,\,+{\rm i}g_{{\rm L}}\left(\frac{a_{{\rm L}}}{2{\rm i}}\left(\varLambda_{32,i}^{x}+{\rm i}\varLambda_{32,i}^{y}\right)+\frac{a_{{\rm L}}^{\dagger}}{2{\rm i}}\left(\varLambda_{32,i}^{x}-{\rm i}\varLambda_{32,i}^{y}\right)\right)+\frac{\Omega_{{\rm L}}}{2}\varLambda_{32,i}^{y}\\
+ & =g_{{\rm R}}\left(-\frac{a_{{\rm R}}}{2}\left(\varLambda_{10,i}^{x}-{\rm i}\varLambda_{10,i}^{y}\right)-\frac{a_{{\rm R}}^{\dagger}}{2}\left(\varLambda_{10,i}^{x}+{\rm i}\varLambda_{10,i}^{y}\right)\right)-\frac{\Omega_{{\rm R}}}{2}\varLambda_{10}^{x}\\
+ & \,\,\,\,\,+g_{{\rm L}}\left(\frac{a_{{\rm L}}}{2}\left(\varLambda_{32,i}^{x}+{\rm i}\varLambda_{32,i}^{y}\right)+\frac{a_{{\rm L}}^{\dagger}}{2}\left(\varLambda_{32,i}^{x}-{\rm i}\varLambda_{32,i}^{y}\right)\right)+\frac{\Omega_{{\rm L}}}{2}\varLambda_{32,i}^{y}\\
+ & =-g_{{\rm R}}\left(\varLambda_{10,i}^{x}\left(\frac{a_{{\rm R}}}{2}+\frac{a_{{\rm R}}^{\dagger}}{2}\right)+{\rm i}\varLambda_{10,i}^{y}\left(-\frac{a_{{\rm R}}^{\dagger}}{2}+\frac{a_{{\rm R}}}{2}\right)\right)-\frac{\Omega_{{\rm R}}}{2}\varLambda_{10}^{x}\\
+ & \,\,\,\,\,+g_{{\rm L}}\left(\varLambda_{32,i}^{x}\left(\frac{a_{{\rm L}}}{2}+\frac{a_{{\rm L}}^{\dagger}}{2}\right)+{\rm i}\varLambda_{32,i}^{y}\left(\frac{a_{{\rm L}}}{2}-\frac{a_{{\rm L}}^{\dagger}}{2}\right)\right)+\frac{\Omega_{{\rm L}}}{2}\varLambda_{32,i}^{y}\\
+ & =-g_{{\rm R}}\left(\varLambda_{10,i}^{x}{\rm Re}\left(a_{{\rm R}}\right)+{\rm i}\varLambda_{10,i}^{y}\left({\rm i}{\rm Im}\left(a_{{\rm R}}\right)\right)\right)-\frac{\Omega_{{\rm R}}}{2}\varLambda_{10}^{x}\\
+ & \,\,\,\,\,+g_{{\rm L}}\left(\varLambda_{32,i}^{x}{\rm Re}\left(a_{{\rm L}}\right)+{\rm i}\varLambda_{32,i}^{y}{\rm i}{\rm Im}\left(a_{{\rm L}}\right)\right)+\frac{\Omega_{{\rm L}}}{2}\varLambda_{32,i}^{y}\\
+ & =-g_{{\rm R}}\left(\varLambda_{10,i}^{x}{\rm Re}\left(a_{{\rm R}}\right)-\varLambda_{10,i}^{y}{\rm Im}\left(a_{{\rm R}}\right)\right)-\frac{\Omega_{{\rm R}}}{2}\varLambda_{10}^{x}\\
+ & \,\,\,\,\,+g_{{\rm L}}\left(\varLambda_{32,i}^{x}{\rm Re}\left(a_{{\rm L}}\right)-\varLambda_{32,i}^{y}{\rm Im}\left(a_{{\rm L}}\right)\right)+\frac{\Omega_{{\rm L}}}{2}\varLambda_{32,i}^{y}.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+14) 
+\begin_inset Formula $\varLambda_{32,i}^{y}=\frac{1}{\sqrt{2}{\rm i}}\left(\left|2\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 2\right|_{i}\right)$
+\end_inset
+
+:
+\begin_inset Formula 
+\begin{align}
+\left[a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i},\varLambda_{32,i}^{y}\right] & =\left[a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i},\frac{1}{\sqrt{2}{\rm i}}\left(\left|2\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 2\right|_{i}\right)\right]\\
+ & =\frac{a_{{\rm R}}}{\sqrt{2}{\rm i}}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i},\left|2\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =\frac{a_{{\rm R}}}{\sqrt{2}{\rm i}}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i},\left|2\right\rangle \!\!\left\langle 3\right|_{i}\right]\\
+ & =-\frac{a_{{\rm R}}}{\sqrt{2}{\rm i}}\left|2\right\rangle \!\!\left\langle 0\right|_{i}\\
+ & =-\frac{a_{{\rm R}}}{\sqrt{2}{\rm i}}\left(\frac{\varLambda_{20,i}^{x}-{\rm i}\varLambda_{20,i}^{y}}{\sqrt{2}}\right)\\
+ & =-\frac{a_{{\rm R}}}{2{\rm i}}\left(\varLambda_{20,i}^{x}-{\rm i}\varLambda_{20,i}^{y}\right),\\
+\left[a_{{\rm R}}^{\dagger}\left|0\right\rangle \!\!\left\langle 3\right|_{i},\varLambda_{32,i}^{y}\right] & =a_{{\rm R}}^{\dagger}\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\frac{1}{\sqrt{2}{\rm i}}\left(\left|2\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 2\right|_{i}\right)\right]\\
+ & =\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}{\rm i}}\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},-\left|3\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =-\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}{\rm i}}\left|0\right\rangle \!\!\left\langle 2\right|_{i}\\
+ & =-\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}{\rm i}}\left(\frac{\varLambda_{20,i}^{x}+{\rm i}\varLambda_{20,i}^{y}}{\sqrt{2}}\right)\\
+ & =-\frac{a_{{\rm R}}^{\dagger}}{2{\rm i}}\left(\varLambda_{20,i}^{x}+{\rm i}\varLambda_{20,i}^{y}\right),\\
+\left[\frac{\Omega_{{\rm R}}}{\sqrt{2}}\varLambda_{30}^{x},\varLambda_{32,i}^{y}\right] & =\frac{\Omega_{{\rm R}}}{\sqrt{2}}\left[\varLambda_{30}^{x},\varLambda_{32,i}^{y}\right]\\
+ & =\frac{\Omega_{{\rm R}}}{2{\rm i}\sqrt{2}}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i}+\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|2\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm R}}}{2{\rm i}\sqrt{2}}\left(\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i},\left|2\right\rangle \!\!\left\langle 3\right|_{i}\right]-\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|3\right\rangle \!\!\left\langle 2\right|_{i}\right]\right)\\
+ & =\frac{\Omega_{{\rm R}}}{2{\rm i}\sqrt{2}}\left(-\left|2\right\rangle \!\!\left\langle 0\right|_{i}-\left|0\right\rangle \!\!\left\langle 2\right|_{i}\right)\\
+ & =-\frac{\Omega_{{\rm R}}}{2{\rm i}\sqrt{2}}\left(\left|2\right\rangle \!\!\left\langle 0\right|_{i}+\left|0\right\rangle \!\!\left\langle 2\right|_{i}\right)\\
+ & =-\frac{\Omega_{{\rm R}}}{2{\rm i}}\varLambda_{20,i}^{x},\\
+\left[a_{{\rm L}}\left|2\right\rangle \!\!\left\langle 1\right|_{i},\varLambda_{32,i}^{y}\right] & =\left[a_{{\rm L}}\left|2\right\rangle \!\!\left\langle 1\right|_{i},\frac{1}{\sqrt{2}{\rm i}}\left(\left|2\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 2\right|_{i}\right)\right]\\
+ & =\frac{a_{{\rm L}}}{\sqrt{2}{\rm i}}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|2\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =-\frac{a_{{\rm L}}}{\sqrt{2}{\rm i}}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|3\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =\frac{a_{{\rm L}}}{\sqrt{2}{\rm i}}\left|3\right\rangle \!\!\left\langle 1\right|_{i}\\
+ & =\frac{a_{{\rm L}}}{{\rm i}\sqrt{2}}\left(\frac{\varLambda_{31,i}^{x}-{\rm i}\varLambda_{31,i}^{y}}{\sqrt{2}}\right)\\
+ & =\frac{a_{{\rm L}}}{2{\rm i}}\left(\varLambda_{31,i}^{x}-{\rm i}\varLambda_{31,i}^{y}\right),\\
+\left[a_{{\rm L}}^{\dagger}\left|1\right\rangle \!\!\left\langle 2\right|_{i},\varLambda_{32,i}^{y}\right] & =\frac{a_{{\rm L}}^{\dagger}}{{\rm i}\sqrt{2}}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|2\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{{\rm i}\sqrt{2}}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|2\right\rangle \!\!\left\langle 3\right|_{i}\right]\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{{\rm i}\sqrt{2}}\left|1\right\rangle \!\!\left\langle 3\right|_{i}\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{{\rm i}\sqrt{2}}\left(\frac{\varLambda_{31,i}^{x}+{\rm i}\varLambda_{31,i}^{y}}{\sqrt{2}}\right)\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{2{\rm i}}\left(\varLambda_{31,i}^{x}+{\rm i}\varLambda_{31,i}^{y}\right),\\
+\left[\frac{\Omega_{{\rm L}}}{\sqrt{2}}\varLambda_{21}^{x},\varLambda_{32,i}^{y}\right] & =\frac{\Omega_{{\rm L}}}{2{\rm i}\sqrt{2}}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i}+\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|2\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm L}}}{2{\rm i}\sqrt{2}}\left(\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},-\left|3\right\rangle \!\!\left\langle 2\right|_{i}\right]+\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|2\right\rangle \!\!\left\langle 3\right|_{i}\right]\right)\\
+ & =\frac{\Omega_{{\rm L}}}{2{\rm i}\sqrt{2}}\left(-\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|3\right\rangle \!\!\left\langle 2\right|_{i}\right]+\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|2\right\rangle \!\!\left\langle 3\right|_{i}\right]\right)\\
+ & =\frac{\Omega_{{\rm L}}}{2{\rm i}\sqrt{2}}\left(\left|3\right\rangle \!\!\left\langle 1\right|_{i}+\left|1\right\rangle \!\!\left\langle 3\right|_{i}\right)\\
+ & =\frac{\Omega_{{\rm L}}}{2{\rm i}}\varLambda_{31,i}^{x},\\
+\partial_{t}\varLambda_{32,i}^{y} & ={\rm i}g_{{\rm R}}\left(-\frac{a_{{\rm R}}}{2{\rm i}}\left(\varLambda_{20,i}^{x}-{\rm i}\varLambda_{20,i}^{y}\right)-\frac{a_{{\rm R}}^{\dagger}}{2{\rm i}}\left(\varLambda_{20,i}^{x}+{\rm i}\varLambda_{20,i}^{y}\right)\right)-\frac{\Omega_{{\rm R}}}{2}\varLambda_{20,i}^{x}\\
+ & \,\,\,\,\,+{\rm i}g_{{\rm L}}\left(\frac{a_{{\rm L}}}{2{\rm i}}\left(\varLambda_{31,i}^{x}-{\rm i}\varLambda_{31,i}^{y}\right)+\frac{a_{{\rm L}}^{\dagger}}{2{\rm i}}\left(\varLambda_{31,i}^{x}+{\rm i}\varLambda_{31,i}^{y}\right)\right)+\frac{\Omega_{{\rm L}}}{2}\varLambda_{31,i}^{x}\\
+ & =g_{{\rm R}}\left(-\frac{a_{{\rm R}}}{2}\left(\varLambda_{20,i}^{x}-{\rm i}\varLambda_{20,i}^{y}\right)-\frac{a_{{\rm R}}^{\dagger}}{2}\left(\varLambda_{20,i}^{x}+{\rm i}\varLambda_{20,i}^{y}\right)\right)-\frac{\Omega_{{\rm R}}}{2}\varLambda_{20,i}^{x}\\
+ & \,\,\,\,\,+g_{{\rm L}}\left(\frac{a_{{\rm L}}}{2}\left(\varLambda_{31,i}^{x}-{\rm i}\varLambda_{31,i}^{y}\right)+\frac{a_{{\rm L}}^{\dagger}}{2}\left(\varLambda_{31,i}^{x}+{\rm i}\varLambda_{31,i}^{y}\right)\right)+\frac{\Omega_{{\rm L}}}{2}\varLambda_{31,i}^{x}\\
+ & =g_{{\rm R}}\left(\varLambda_{20,i}^{x}\left(-\frac{a_{{\rm R}}}{2}-\frac{a_{{\rm R}}^{\dagger}}{2}\right)+{\rm i}\varLambda_{20,i}^{y}\left(\frac{a_{{\rm R}}}{2}-\frac{a_{{\rm R}}^{\dagger}}{2}\right)\right)-\frac{\Omega_{{\rm R}}}{2}\varLambda_{20,i}^{x}\\
+ & \,\,\,\,\,+g_{{\rm L}}\left(\varLambda_{31,i}^{x}\left(\frac{a_{{\rm L}}}{2}+\frac{a_{{\rm L}}^{\dagger}}{2}\right)+{\rm i}\varLambda_{31,i}^{y}\left(\frac{a_{{\rm L}}^{\dagger}}{2}-\frac{a_{{\rm L}}}{2}\right)\right)+\frac{\Omega_{{\rm L}}}{2}\varLambda_{31,i}^{x}\\
+ & =g_{{\rm R}}\left(-\varLambda_{20,i}^{x}{\rm Re}\left(a_{{\rm R}}\right)+{\rm i}\varLambda_{20,i}^{y}{\rm i}{\rm Im}\left(a_{{\rm R}}\right)\right)-\frac{\Omega_{{\rm R}}}{2}\varLambda_{20,i}^{x}\\
+ & \,\,\,\,\,+g_{{\rm L}}\left(\varLambda_{31,i}^{x}{\rm Re}\left(a_{{\rm L}}\right)+{\rm i}\varLambda_{31,i}^{y}\left(-{\rm i}{\rm Im}\left(a_{{\rm L}}\right)\right)\right)+\frac{\Omega_{{\rm L}}}{2}\varLambda_{31,i}^{x}\\
+ & =-g_{{\rm R}}\left(\varLambda_{20,i}^{x}{\rm Re}\left(a_{{\rm R}}\right)+\varLambda_{20,i}^{y}{\rm Im}\left(a_{{\rm R}}\right)\right)-\frac{\Omega_{{\rm R}}}{2}\varLambda_{20,i}^{x}\\
+ & \,\,\,\,\,+g_{{\rm L}}\left(\varLambda_{31,i}^{x}{\rm Re}\left(a_{{\rm L}}\right)+\varLambda_{31,i}^{y}{\rm Im}\left(a_{{\rm L}}\right)\right)+\frac{\Omega_{{\rm L}}}{2}\varLambda_{31,i}^{x}.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+15) 
+\begin_inset Formula $\varLambda_{1,i}^{z}=\frac{1}{\sqrt{2}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right):$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\left[a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i},\varLambda_{1,i}^{z}\right] & =\left[a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i},\frac{1}{\sqrt{2}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right)\right]\\
+ & =\left[a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i},\frac{1}{\sqrt{2}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}\right)\right]\\
+ & =\frac{a_{{\rm R}}}{\sqrt{2}}\left|3\right\rangle \!\!\left\langle 0\right|_{i}\\
+ & =\frac{a_{{\rm R}}}{\sqrt{2}}\left(\frac{\varLambda_{30,i}^{x}-{\rm i}\varLambda_{30,i}^{y}}{\sqrt{2}}\right)\\
+ & =\frac{a_{{\rm R}}}{2}\left(\varLambda_{30,i}^{x}-{\rm i}\varLambda_{30,i}^{y}\right),\\
+\left[a_{{\rm R}}^{\dagger}\left|0\right\rangle \!\!\left\langle 3\right|_{i},\varLambda_{1,i}^{z}\right] & =a_{{\rm R}}^{\dagger}\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\frac{1}{\sqrt{2}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right)\right]\\
+ & =a_{{\rm R}}^{\dagger}\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\frac{1}{\sqrt{2}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}\right)\right]\\
+ & =-\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}}\left|0\right\rangle \!\!\left\langle 3\right|_{i}\\
+ & =-\frac{a_{{\rm R}}^{\dagger}}{\sqrt{2}}\left(\frac{\varLambda_{30,i}^{x}+{\rm i}\varLambda_{30,i}^{y}}{\sqrt{2}}\right)\\
+ & =-\frac{a_{{\rm R}}^{\dagger}}{2}\left(\varLambda_{30,i}^{x}+{\rm i}\varLambda_{30,i}^{y}\right),\\
+\left[\frac{\Omega_{{\rm R}}}{\sqrt{2}}\varLambda_{30}^{x},\varLambda_{1,i}^{z}\right] & =\frac{\Omega_{{\rm R}}}{\sqrt{2}}\left[\varLambda_{30}^{x},\frac{1}{\sqrt{2}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right)\right]\\
+ & =\frac{\Omega_{{\rm R}}}{2\sqrt{2}}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i}+\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm R}}}{2\sqrt{2}}\left(\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}\right]+\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}\right]\right)\\
+ & =\frac{\Omega_{{\rm R}}}{2\sqrt{2}}\left(\left|3\right\rangle \!\!\left\langle 0\right|_{i}-\left|0\right\rangle \!\!\left\langle 3\right|_{i}\right)\\
+ & =-\frac{\Omega_{{\rm R}}}{2\sqrt{2}}\left(\left|0\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right)\\
+ & =-\frac{\Omega_{{\rm R}}{\rm i}}{2}\frac{1}{\sqrt{2}{\rm i}}\left(\left|0\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right)\\
+ & =-\frac{\Omega_{{\rm R}}{\rm i}}{2}\varLambda_{30,i}^{y},\\
+\left[a_{{\rm L}}\left|2\right\rangle \!\!\left\langle 1\right|_{i},\varLambda_{1,i}^{z}\right] & =\left[a_{{\rm L}}\left|2\right\rangle \!\!\left\langle 1\right|_{i},\frac{1}{\sqrt{2}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right)\right]\\
+ & =\left[a_{{\rm L}}\left|2\right\rangle \!\!\left\langle 1\right|_{i},\frac{1}{\sqrt{2}}\left(-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right)\right]\\
+ & =-\frac{a_{{\rm L}}}{\sqrt{2}}\left|2\right\rangle \!\!\left\langle 1\right|_{i}\\
+ & =-\frac{a_{{\rm L}}}{\sqrt{2}}\left(\frac{\varLambda_{21,i}^{x}-{\rm i}\varLambda_{21,i}^{y}}{\sqrt{2}}\right)\\
+ & =-\frac{a_{{\rm L}}}{2}\left(\varLambda_{21,i}^{x}-{\rm i}\varLambda_{21,i}^{y}\right),\\
+\left[a_{{\rm L}}^{\dagger}\left|1\right\rangle \!\!\left\langle 2\right|_{i},\varLambda_{1,i}^{z}\right] & =\frac{a_{{\rm L}}^{\dagger}}{\sqrt{2}}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right]\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{\sqrt{2}}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right]\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{\sqrt{2}}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right]\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{\sqrt{2}}\left|1\right\rangle \!\!\left\langle 2\right|_{i}\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{\sqrt{2}}\left(\frac{\varLambda_{21,i}^{x}+{\rm i}\varLambda_{21,i}^{y}}{\sqrt{2}}\right)\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{2}\left(\varLambda_{21,i}^{x}+{\rm i}\varLambda_{21,i}^{y}\right),\\
+\left[\frac{\Omega_{{\rm L}}}{\sqrt{2}}\varLambda_{21}^{x},\varLambda_{1,i}^{z}\right] & =\frac{\Omega_{{\rm L}}}{2\sqrt{2}}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i}+\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm L}}}{2\sqrt{2}}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i}+\left|1\right\rangle \!\!\left\langle 2\right|_{i},-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right]\\
+ & =-\frac{\Omega_{{\rm L}}}{2\sqrt{2}}\left(\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right]+\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right]\right)\\
+ & =-\frac{\Omega_{{\rm L}}}{2\sqrt{2}}\left(\left|2\right\rangle \!\!\left\langle 1\right|_{i}-\left|1\right\rangle \!\!\left\langle 2\right|_{i}\right)\\
+ & =\frac{\Omega_{{\rm L}}{\rm i}}{2}\frac{1}{{\rm i}\sqrt{2}}\left(\left|1\right\rangle \!\!\left\langle 2\right|_{i}-\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right)\\
+ & =\frac{\Omega_{{\rm L}}{\rm i}}{2}\varLambda_{21,i}^{y},\\
+\partial_{t}\varLambda_{1,i}^{z} & ={\rm i}g_{{\rm R}}\left(\frac{a_{{\rm R}}}{2}\left(\varLambda_{30,i}^{x}-{\rm i}\varLambda_{30,i}^{y}\right)-\frac{a_{{\rm R}}^{\dagger}}{2}\left(\varLambda_{30,i}^{x}+{\rm i}\varLambda_{30,i}^{y}\right)\right)+\frac{\Omega_{{\rm R}}}{2}\varLambda_{30,i}^{y}\\
+ & \,\,\,\,\,+{\rm i}g_{{\rm L}}\left(-\frac{a_{{\rm L}}}{2}\left(\varLambda_{21,i}^{x}-{\rm i}\varLambda_{21,i}^{y}\right)+\frac{a_{{\rm L}}^{\dagger}}{2}\left(\varLambda_{21,i}^{x}+{\rm i}\varLambda_{21,i}^{y}\right)\right)-\frac{\Omega_{{\rm L}}}{2}\varLambda_{21,i}^{y}\\
+ & ={\rm i}g_{{\rm R}}\left(\varLambda_{30,i}^{x}\left(\frac{a_{{\rm R}}}{2}-\frac{a_{{\rm R}}^{\dagger}}{2}\right)+\left(-\frac{a_{{\rm R}}}{2}-\frac{a_{{\rm R}}^{\dagger}}{2}\right){\rm i}\varLambda_{30,i}^{y}\right)+\frac{\Omega_{{\rm R}}}{2}\varLambda_{30,i}^{y}\\
+ & \,\,\,\,+{\rm i}g_{{\rm L}}\left(\varLambda_{21,i}^{x}\left(-\frac{a_{{\rm L}}}{2}+\frac{a_{{\rm L}}^{\dagger}}{2}\right)+\left(\frac{a_{{\rm L}}^{\dagger}}{2}+\frac{a_{{\rm L}}}{2}\right){\rm i}\varLambda_{21,i}^{y}\right)-\frac{\Omega_{{\rm L}}}{2}\varLambda_{21,i}^{y}\\
+ & ={\rm i}g_{{\rm R}}\left(\varLambda_{30,i}^{x}{\rm i}{\rm Im}\left(a_{{\rm R}}\right)-{\rm Re}\left(a_{{\rm R}}\right){\rm i}\varLambda_{30,i}^{y}\right)+\frac{\Omega_{{\rm R}}}{2}\varLambda_{30,i}^{y}\\
+ & \,\,\,\,+{\rm i}g_{{\rm L}}\left(\varLambda_{21,i}^{x}\left(-{\rm i}{\rm Im}\left(a_{{\rm L}}\right)\right)+{\rm Re}\left(a_{{\rm L}}\right){\rm i}\varLambda_{21,i}^{y}\right)-\frac{\Omega_{{\rm L}}}{2}\varLambda_{21,i}^{y}\\
+ & =-g_{{\rm R}}\left(\varLambda_{30,i}^{x}{\rm Im}\left(a_{{\rm R}}\right)-{\rm Re}\left(a_{{\rm R}}\right)\varLambda_{30,i}^{y}\right)+\frac{\Omega_{{\rm R}}}{2}\varLambda_{30,i}^{y}\\
+ & \,\,\,\,-g_{{\rm L}}\left(-\varLambda_{21,i}^{x}{\rm Im}\left(a_{{\rm L}}\right)+{\rm Re}\left(a_{{\rm L}}\right)\varLambda_{21,i}^{y}\right)-\frac{\Omega_{{\rm L}}}{2}\varLambda_{21,i}^{y}.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+15) 
+\begin_inset Formula $\varLambda_{2,i}^{z}=\frac{1}{\sqrt{6}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}-2\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\left[a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i},\varLambda_{2,i}^{z}\right] & =\left[a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i},\frac{1}{\sqrt{6}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}-2\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right)\right]\\
+ & =\frac{a_{{\rm R}}}{\sqrt{6}}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}\right]\\
+ & =\frac{a_{{\rm R}}}{\sqrt{6}}\left|3\right\rangle \!\!\left\langle 0\right|_{i}\\
+ & =\frac{a_{{\rm R}}}{\sqrt{6}}\left(\frac{\varLambda_{30,i}^{x}-{\rm i}\varLambda_{30,i}^{y}}{\sqrt{2}}\right)\\
+ & =\frac{a_{{\rm R}}}{2\sqrt{3}}\left(\varLambda_{30,i}^{x}-{\rm i}\varLambda_{30,i}^{y}\right),\\
+\left[a_{{\rm R}}^{\dagger}\left|0\right\rangle \!\!\left\langle 3\right|_{i},\varLambda_{2,i}^{z}\right] & =a_{{\rm R}}^{\dagger}\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\frac{1}{\sqrt{6}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}-2\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right)\right]\\
+ & =\frac{a_{{\rm R}}^{\dagger}}{\sqrt{6}}\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}\right]\\
+ & =-\frac{a_{{\rm R}}^{\dagger}}{\sqrt{6}}\left|0\right\rangle \!\!\left\langle 3\right|_{i}\\
+ & =-\frac{a_{{\rm R}}^{\dagger}}{\sqrt{6}}\left(\frac{\varLambda_{30,i}^{x}+{\rm i}\varLambda_{30,i}^{y}}{\sqrt{2}}\right)\\
+ & =-\frac{a_{{\rm R}}^{\dagger}}{2\sqrt{3}}\left(\varLambda_{30,i}^{x}+{\rm i}\varLambda_{30,i}^{y}\right),\\
+\left[\frac{\Omega_{{\rm R}}}{\sqrt{2}}\varLambda_{30}^{x},\varLambda_{2,i}^{z}\right] & =\frac{\Omega_{{\rm R}}}{\sqrt{2}}\left[\varLambda_{30}^{x},\frac{1}{\sqrt{6}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}-2\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right)\right]\\
+ & =\frac{\Omega_{{\rm R}}}{\sqrt{24}}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i}+\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm R}}}{2\sqrt{6}}\left(\left|3\right\rangle \!\!\left\langle 0\right|_{i}-\left|0\right\rangle \!\!\left\langle 3\right|_{i}\right)\\
+ & =\frac{\Omega_{{\rm R}}{\rm i}}{2\sqrt{3}}\frac{1}{{\rm i}\sqrt{2}}\left(\left|3\right\rangle \!\!\left\langle 0\right|_{i}-\left|0\right\rangle \!\!\left\langle 3\right|_{i}\right)\\
+ & =-\frac{\Omega_{{\rm R}}{\rm i}}{2\sqrt{3}}\frac{1}{{\rm i}\sqrt{2}}\left(\left|0\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right)\\
+ & =-\frac{\Omega_{{\rm R}}{\rm i}}{2\sqrt{3}}\varLambda_{30,i}^{y},\\
+\left[a_{{\rm L}}\left|2\right\rangle \!\!\left\langle 1\right|_{i},\varLambda_{2,i}^{z}\right] & =\left[a_{{\rm L}}\left|2\right\rangle \!\!\left\langle 1\right|_{i},\frac{1}{\sqrt{6}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}-2\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right)\right]\\
+ & =\frac{a_{{\rm L}}}{\sqrt{6}}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|1\right\rangle \!\!\left\langle 1\right|_{i}-2\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =\frac{a_{{\rm L}}}{\sqrt{6}}\left(\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right]-2\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right]\right)\\
+ & =\frac{a_{{\rm L}}}{\sqrt{6}}\left(\left|2\right\rangle \!\!\left\langle 1\right|_{i}+2\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right)\\
+ & =\frac{3a_{{\rm L}}}{\sqrt{6}}\left|2\right\rangle \!\!\left\langle 1\right|_{i}\\
+ & =\frac{3a_{{\rm L}}}{\sqrt{6}}\left(\frac{\varLambda_{21,i}^{x}-{\rm i}\varLambda_{21,i}^{y}}{\sqrt{2}}\right)\\
+ & =\frac{3a_{{\rm L}}}{2\sqrt{3}}\left(\varLambda_{21,i}^{x}-{\rm i}\varLambda_{21,i}^{y}\right)\\
+ & =\frac{\sqrt{3}a_{{\rm L}}}{2}\left(\varLambda_{21,i}^{x}-{\rm i}\varLambda_{21,i}^{y}\right),\\
+\left[a_{{\rm L}}^{\dagger}\left|1\right\rangle \!\!\left\langle 2\right|_{i},\varLambda_{2,i}^{z}\right] & =\frac{a_{{\rm L}}^{\dagger}}{\sqrt{6}}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}-2\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{\sqrt{6}}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|1\right\rangle \!\!\left\langle 1\right|_{i}-2\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{\sqrt{6}}\left(-\left|1\right\rangle \!\!\left\langle 2\right|_{i}-2\left|1\right\rangle \!\!\left\langle 2\right|_{i}\right)\\
+ & =-3\frac{a_{{\rm L}}^{\dagger}}{\sqrt{6}}\left|1\right\rangle \!\!\left\langle 2\right|_{i}\\
+ & =-\frac{3a_{{\rm L}}^{\dagger}}{\sqrt{6}}\left(\frac{\varLambda_{21,i}^{x}+{\rm i}\varLambda_{21,i}^{y}}{\sqrt{2}}\right)\\
+ & =-\frac{3a_{{\rm L}}^{\dagger}}{2\sqrt{3}}\left(\varLambda_{21,i}^{x}+{\rm i}\varLambda_{21,i}^{y}\right)\\
+ & =-\frac{\sqrt{3}a_{{\rm L}}^{\dagger}}{2}\left(\varLambda_{21,i}^{x}+{\rm i}\varLambda_{21,i}^{y}\right),\\
+\left[\frac{\Omega_{{\rm L}}}{\sqrt{2}}\varLambda_{21}^{x},\varLambda_{2,i}^{z}\right] & =\frac{\Omega_{{\rm L}}}{2}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i}+\left|1\right\rangle \!\!\left\langle 2\right|_{i},\frac{1}{\sqrt{6}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}-2\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right)\right]\\
+ & =\frac{\Omega_{{\rm L}}}{2}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i}+\left|1\right\rangle \!\!\left\langle 2\right|_{i},\frac{1}{\sqrt{6}}\left(\left|1\right\rangle \!\!\left\langle 1\right|_{i}-2\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right)\right]\\
+ & =\frac{\Omega_{{\rm L}}}{2\sqrt{6}}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i}+\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|1\right\rangle \!\!\left\langle 1\right|_{i}-2\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm L}}}{2\sqrt{6}}\left(\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|1\right\rangle \!\!\left\langle 1\right|_{i}-2\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right]+\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|1\right\rangle \!\!\left\langle 1\right|_{i}-2\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right]\right)\\
+ & =\frac{\Omega_{{\rm L}}}{2\sqrt{6}}\left(3\left|2\right\rangle \!\!\left\langle 1\right|_{i}-3\left|1\right\rangle \!\!\left\langle 2\right|_{i}\right)\\
+ & =-\frac{3\Omega_{{\rm L}}}{2\sqrt{6}}\left(\left|1\right\rangle \!\!\left\langle 2\right|_{i}-\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right)\\
+ & =-\frac{3\Omega_{{\rm L}}{\rm i}}{2\sqrt{3}}\frac{1}{\sqrt{2}{\rm i}}\left(\left|1\right\rangle \!\!\left\langle 2\right|_{i}-\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right)\\
+ & =-\frac{3\Omega_{{\rm L}}{\rm i}}{2\sqrt{3}}\frac{1}{\sqrt{2}{\rm i}}\left(\left|1\right\rangle \!\!\left\langle 2\right|_{i}-\left|2\right\rangle \!\!\left\langle 1\right|_{i}\right)\\
+ & =-\frac{\sqrt{3}\Omega_{{\rm L}}{\rm i}}{2}\varLambda_{21,i}^{y},\\
+\partial_{t}\varLambda_{2,i}^{z} & ={\rm i}g_{{\rm R}}\left(\frac{a_{{\rm R}}}{2\sqrt{3}}\left(\varLambda_{30,i}^{x}-{\rm i}\varLambda_{30,i}^{y}\right)-\frac{a_{{\rm R}}^{\dagger}}{2\sqrt{3}}\left(\varLambda_{30,i}^{x}+{\rm i}\varLambda_{30,i}^{y}\right)\right)+\frac{\Omega_{{\rm R}}}{2\sqrt{3}}\varLambda_{30,i}^{y}\\
+ & \,\,\,\,\,+{\rm i}g_{{\rm L}}\left(\frac{\sqrt{3}a_{{\rm L}}}{2}\left(\varLambda_{21,i}^{x}-{\rm i}\varLambda_{21,i}^{y}\right)-\frac{\sqrt{3}a_{{\rm L}}^{\dagger}}{2}\left(\varLambda_{21,i}^{x}+{\rm i}\varLambda_{21,i}^{y}\right)\right)-\frac{\sqrt{3}\Omega_{{\rm L}}{\rm i}}{2}\varLambda_{21,i}^{y}\\
+ & ={\rm i}g_{{\rm R}}\left(\frac{a_{{\rm R}}}{2\sqrt{3}}\left(\varLambda_{30,i}^{x}-{\rm i}\varLambda_{30,i}^{y}\right)-\frac{a_{{\rm R}}^{\dagger}}{2\sqrt{3}}\left(\varLambda_{30,i}^{x}+{\rm i}\varLambda_{30,i}^{y}\right)\right)+\frac{\Omega_{{\rm R}}}{2\sqrt{3}}\varLambda_{30,i}^{y}\\
+ & \,\,\,\,\,+{\rm i}g_{{\rm L}}\left(\frac{\sqrt{3}a_{{\rm L}}}{2}\left(\varLambda_{21,i}^{x}-{\rm i}\varLambda_{21,i}^{y}\right)-\frac{\sqrt{3}a_{{\rm L}}^{\dagger}}{2}\left(\varLambda_{21,i}^{x}+{\rm i}\varLambda_{21,i}^{y}\right)\right)+\frac{\sqrt{3}\Omega_{{\rm L}}}{2}\varLambda_{21,i}^{y}\\
+ & ={\rm i}g_{{\rm R}}\left(\varLambda_{30,i}^{x}\left(\frac{a_{{\rm R}}}{2\sqrt{3}}-\frac{a_{{\rm R}}^{\dagger}}{2\sqrt{3}}\right)+{\rm i}\varLambda_{30,i}^{y}\left(-\frac{a_{{\rm R}}^{\dagger}}{2\sqrt{3}}-\frac{a_{{\rm R}}}{2\sqrt{3}}\right)\right)+\frac{\Omega_{{\rm R}}}{2\sqrt{3}}\varLambda_{30,i}^{y}\\
+ & \,\,\,\,\,+{\rm i}g_{{\rm L}}\left(\varLambda_{21,i}^{x}\left(\frac{\sqrt{3}a_{{\rm L}}}{2}-\frac{\sqrt{3}a_{{\rm L}}^{\dagger}}{2}\right)+\left(-\frac{\sqrt{3}a_{{\rm L}}}{2}-\frac{\sqrt{3}a_{{\rm L}}^{\dagger}}{2}\right){\rm i}\varLambda_{21,i}^{y}\right)+\frac{\sqrt{3}\Omega_{{\rm L}}}{2}\varLambda_{21,i}^{y}\\
+ & ={\rm i}g_{{\rm R}}\left(\varLambda_{30,i}^{x}\left(\frac{a_{{\rm R}}}{2\sqrt{3}}-\frac{a_{{\rm R}}^{\dagger}}{2\sqrt{3}}\right)+{\rm i}\varLambda_{30,i}^{y}\left(-\frac{a_{{\rm R}}^{\dagger}}{2\sqrt{3}}-\frac{a_{{\rm R}}}{2\sqrt{3}}\right)\right)+\frac{\Omega_{{\rm R}}}{2\sqrt{3}}\varLambda_{30,i}^{y}\\
+ & \,\,\,\,\,+{\rm i}g_{{\rm L}}\left(\varLambda_{21,i}^{x}\left(\frac{\sqrt{3}a_{{\rm L}}}{2}-\frac{\sqrt{3}a_{{\rm L}}^{\dagger}}{2}\right)+\left(-\frac{\sqrt{3}a_{{\rm L}}}{2}-\frac{\sqrt{3}a_{{\rm L}}^{\dagger}}{2}\right){\rm i}\varLambda_{21,i}^{y}\right)+\frac{\sqrt{3}\Omega_{{\rm L}}}{2}\varLambda_{21,i}^{y}\\
+ & =\frac{{\rm i}g_{{\rm R}}}{2\sqrt{3}}\left(\varLambda_{30,i}^{x}\left(a_{{\rm R}}-a_{{\rm R}}^{\dagger}\right)-{\rm i}\varLambda_{30,i}^{y}\left(a_{{\rm R}}^{\dagger}+a_{{\rm R}}\right)\right)+\frac{\Omega_{{\rm R}}}{2\sqrt{3}}\varLambda_{30,i}^{y}\\
+ & \,\,\,\,\,+{\rm i}g_{{\rm L}}\frac{\sqrt{3}}{2}\left(\varLambda_{21,i}^{x}\left(a_{{\rm L}}-a_{{\rm L}}^{\dagger}\right)-\left(a_{{\rm L}}+a_{{\rm L}}^{\dagger}\right){\rm i}\varLambda_{21,i}^{y}\right)+\frac{\sqrt{3}\Omega_{{\rm L}}}{2}\varLambda_{21,i}^{y}\\
+ & =\frac{{\rm i}g_{{\rm R}}}{2\sqrt{3}}\left(\varLambda_{30,i}^{x}2{\rm i}{\rm Im}\left(a_{{\rm R}}\right)-{\rm i}\varLambda_{30,i}^{y}2{\rm Re}\left(a_{{\rm R}}\right)\right)+\frac{\Omega_{{\rm R}}}{2\sqrt{3}}\varLambda_{30,i}^{y}\\
+ & \,\,\,\,\,+{\rm i}g_{{\rm L}}\frac{\sqrt{3}}{2}\left(\varLambda_{21,i}^{x}2{\rm i}{\rm Im}\left(a_{{\rm L}}\right)-2{\rm Re}\left(a_{{\rm L}}\right){\rm i}\varLambda_{21,i}^{y}\right)+\frac{\sqrt{3}\Omega_{{\rm L}}}{2}\varLambda_{21,i}^{y}\\
+ & =-\frac{g_{{\rm R}}}{\sqrt{3}}\left(\varLambda_{30,i}^{x}{\rm Im}\left(a_{{\rm R}}\right)-\varLambda_{30,i}^{y}{\rm Re}\left(a_{{\rm R}}\right)\right)+\frac{\Omega_{{\rm R}}}{2\sqrt{3}}\varLambda_{30,i}^{y}\\
+ & \,\,\,\,\,-g_{{\rm L}}\sqrt{3}\left(\varLambda_{21,i}^{x}{\rm Im}\left(a_{{\rm L}}\right)-{\rm Re}\left(a_{{\rm L}}\right)\varLambda_{21,i}^{y}\right)+\frac{\sqrt{3}\Omega_{{\rm L}}}{2}\varLambda_{21,i}^{y}.
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+16 ) 
+\begin_inset Formula $\varLambda_{3,i}^{z}=\frac{1}{\sqrt{12}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}+\left|2\right\rangle \!\!\left\langle 2\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\left[a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i},\varLambda_{3,i}^{z}\right] & =\left[a_{{\rm R}}\left|3\right\rangle \!\!\left\langle 0\right|_{i},\frac{1}{\sqrt{12}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}+\left|2\right\rangle \!\!\left\langle 2\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right)\right]\\
+ & =\frac{a_{{\rm R}}}{\sqrt{12}}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right]\\
+ & =\frac{a_{{\rm R}}}{\sqrt{12}}\left(\left|3\right\rangle \!\!\left\langle 0\right|_{i}+3\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right)\\
+ & =\frac{4a_{{\rm R}}}{\sqrt{12}}\left|3\right\rangle \!\!\left\langle 0\right|_{i}\\
+ & =\frac{2a_{{\rm R}}}{\sqrt{3}}\left|3\right\rangle \!\!\left\langle 0\right|_{i}\\
+ & =\frac{2a_{{\rm R}}}{\sqrt{3}}\left(\frac{\varLambda_{30,i}^{x}-{\rm i}\varLambda_{30,i}^{y}}{\sqrt{2}}\right)\\
+ & =\frac{\sqrt{2}a_{{\rm R}}}{\sqrt{3}}\left(\varLambda_{30,i}^{x}-{\rm i}\varLambda_{30,i}^{y}\right)\\
+ & =\sqrt{\frac{2}{3}}a_{{\rm R}}\left(\varLambda_{30,i}^{x}-{\rm i}\varLambda_{30,i}^{y}\right),\\
+\left[a_{{\rm R}}^{\dagger}\left|0\right\rangle \!\!\left\langle 3\right|_{i},\varLambda_{3,i}^{z}\right] & =a_{{\rm R}}^{\dagger}\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\frac{1}{\sqrt{12}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}+\left|2\right\rangle \!\!\left\langle 2\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right)\right]\\
+ & =\frac{a_{{\rm R}}^{\dagger}}{\sqrt{12}}\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right]\\
+ & =\frac{a_{{\rm R}}^{\dagger}}{\sqrt{12}}\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right]\\
+ & =\frac{a_{{\rm R}}^{\dagger}}{\sqrt{12}}\left(-\left|0\right\rangle \!\!\left\langle 3\right|_{i}-3\left|0\right\rangle \!\!\left\langle 3\right|_{i}\right)\\
+ & =\frac{-2a_{{\rm R}}^{\dagger}}{\sqrt{3}}\left|0\right\rangle \!\!\left\langle 3\right|_{i}\\
+ & =\frac{-2a_{{\rm R}}^{\dagger}}{\sqrt{3}}\left(\frac{\varLambda_{30,i}^{x}+{\rm i}\varLambda_{30,i}^{y}}{\sqrt{2}}\right)\\
+ & =-\sqrt{\frac{2}{3}}a_{{\rm R}}^{\dagger}\left(\varLambda_{30,i}^{x}+{\rm i}\varLambda_{30,i}^{y}\right),\\
+\left[\frac{\Omega_{{\rm R}}}{\sqrt{2}}\varLambda_{30}^{x},\varLambda_{3,i}^{z}\right] & =\frac{\Omega_{{\rm R}}}{\sqrt{2}}\left[\varLambda_{30}^{x},\frac{1}{\sqrt{12}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}+\left|2\right\rangle \!\!\left\langle 2\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right)\right]\\
+ & =\frac{\Omega_{{\rm R}}}{2}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i}+\left|0\right\rangle \!\!\left\langle 3\right|_{i},\frac{1}{\sqrt{12}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}+\left|2\right\rangle \!\!\left\langle 2\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right)\right]\\
+ & =\frac{\Omega_{{\rm R}}}{2\sqrt{12}}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i}+\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}+\left|2\right\rangle \!\!\left\langle 2\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm R}}}{2\sqrt{12}}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i}+\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}+\left|2\right\rangle \!\!\left\langle 2\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm R}}}{2\sqrt{12}}\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i}+\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right]\\
+ & =\frac{\Omega_{{\rm R}}}{2\sqrt{12}}\left(\left[\left|3\right\rangle \!\!\left\langle 0\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right]+\left[\left|0\right\rangle \!\!\left\langle 3\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right]\right)\\
+ & =\frac{\Omega_{{\rm R}}}{2\sqrt{12}}\left(4\left|3\right\rangle \!\!\left\langle 0\right|_{i}-4\left|0\right\rangle \!\!\left\langle 3\right|_{i}\right)\\
+ & =\frac{4\Omega_{{\rm R}}}{2\sqrt{12}}\left(\left|3\right\rangle \!\!\left\langle 0\right|_{i}-\left|0\right\rangle \!\!\left\langle 3\right|_{i}\right)\\
+ & =-\frac{4\Omega_{{\rm R}}}{2\sqrt{12}}\left(\left|0\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right)\\
+ & =-\frac{4\Omega_{{\rm R}}}{4\sqrt{3}}\left(\left|0\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right)\\
+ & =-\frac{\Omega_{{\rm R}}{\rm i}\sqrt{2}}{\sqrt{3}}\frac{1}{\sqrt{2}{\rm i}}\left(\left|0\right\rangle \!\!\left\langle 3\right|_{i}-\left|3\right\rangle \!\!\left\langle 0\right|_{i}\right)\\
+ & =-\sqrt{\frac{2}{3}}\Omega_{{\rm R}}{\rm i}\varLambda_{30,i}^{y},\\
+\left[a_{{\rm L}}\left|2\right\rangle \!\!\left\langle 1\right|_{i},\varLambda_{3,i}^{z}\right] & =\left[a_{{\rm L}}\left|2\right\rangle \!\!\left\langle 1\right|_{i},\frac{1}{\sqrt{12}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}+\left|2\right\rangle \!\!\left\langle 2\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right)\right]\\
+ & =\frac{a_{{\rm L}}}{\sqrt{12}}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i},\left|1\right\rangle \!\!\left\langle 1\right|_{i}+\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =0,\\
+\left[a_{{\rm L}}^{\dagger}\left|1\right\rangle \!\!\left\langle 2\right|_{i},\varLambda_{3,i}^{z}\right] & =\frac{a_{{\rm L}}^{\dagger}}{\sqrt{12}}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}+\left|2\right\rangle \!\!\left\langle 2\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right]\\
+ & =\frac{a_{{\rm L}}^{\dagger}}{\sqrt{12}}\left[\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|1\right\rangle \!\!\left\langle 1\right|_{i}+\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =0,\\
+\left[\frac{\Omega_{{\rm L}}}{\sqrt{2}}\varLambda_{21}^{x},\varLambda_{3,i}^{z}\right] & =\frac{\Omega_{{\rm L}}}{2}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i}+\left|1\right\rangle \!\!\left\langle 2\right|_{i},\frac{1}{\sqrt{12}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}+\left|2\right\rangle \!\!\left\langle 2\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right)\right]\\
+ & =\frac{\Omega_{{\rm L}}}{2\sqrt{12}}\left[\left|2\right\rangle \!\!\left\langle 1\right|_{i}+\left|1\right\rangle \!\!\left\langle 2\right|_{i},\left|1\right\rangle \!\!\left\langle 1\right|_{i}+\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right]\\
+ & =0,\\
+\partial_{t}\varLambda_{3,i}^{z} & ={\rm i}g_{{\rm R}}\left(\sqrt{\frac{2}{3}}a_{{\rm R}}\left(\varLambda_{30,i}^{x}-{\rm i}\varLambda_{30,i}^{y}\right)-\sqrt{\frac{2}{3}}a_{{\rm R}}^{\dagger}\left(\varLambda_{30,i}^{x}+{\rm i}\varLambda_{30,i}^{y}\right)\right)+\sqrt{\frac{2}{3}}\Omega_{{\rm R}}\varLambda_{30,i}^{y}\\
+ & ={\rm i}g_{{\rm R}}\sqrt{\frac{2}{3}}\left(a_{{\rm R}}\left(\varLambda_{30,i}^{x}-{\rm i}\varLambda_{30,i}^{y}\right)-a_{{\rm R}}^{\dagger}\left(\varLambda_{30,i}^{x}+{\rm i}\varLambda_{30,i}^{y}\right)\right)+\sqrt{\frac{2}{3}}\Omega_{{\rm R}}\varLambda_{30,i}^{y}\\
+ & ={\rm i}g_{{\rm R}}\sqrt{\frac{2}{3}}\left(\varLambda_{30,i}^{x}\left(a_{{\rm R}}-a_{{\rm R}}^{\dagger}\right)-{\rm i}\varLambda_{30,i}^{y}\left(a_{{\rm R}}+a_{{\rm R}}^{\dagger}\right)\right)+\sqrt{\frac{2}{3}}\Omega_{{\rm R}}\varLambda_{30,i}^{y}\\
+ & ={\rm i}g_{{\rm R}}\sqrt{\frac{2}{3}}\left(\varLambda_{30,i}^{x}\left(-2{\rm i}{\rm Im}\left(a_{{\rm R}}\right)\right)-{\rm i}\varLambda_{30,i}^{y}2{\rm Re}\left(a_{{\rm R}}\right)\right)+\sqrt{\frac{2}{3}}\Omega_{{\rm R}}\varLambda_{30,i}^{y}\\
+ & =g_{{\rm R}}2\sqrt{\frac{2}{3}}\left(\varLambda_{30,i}^{x}{\rm Im}\left(a_{{\rm R}}\right)+\varLambda_{30,i}^{y}{\rm Re}\left(a_{{\rm R}}\right)\right)+\sqrt{\frac{2}{3}}\Omega_{{\rm R}}\varLambda_{30,i}^{y}\\
+ & =\sqrt{\frac{2}{3}}\left(2g_{{\rm R}}\left(\varLambda_{30,i}^{x}{\rm Im}\left(a_{{\rm R}}\right)+\varLambda_{30,i}^{y}{\rm Re}\left(a_{{\rm R}}\right)\right)+\Omega_{{\rm R}}\varLambda_{30,i}^{y}\right).
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Summarizing:
+\end_layout
+
+\begin_layout Standard
+
+\size scriptsize
+\begin_inset Formula 
+\begin{align}
+\partial_{t}a_{{\rm L}} & ={\rm i}\left(-\frac{g_{{\rm L}}}{\sqrt{2}}\left(\varLambda_{21,i}^{x}+{\rm i}\varLambda_{21,i}^{y}\right)+\Delta_{{\rm L}}a_{{\rm L}}\right)-\frac{\kappa_{{\rm L}}}{2}a_{{\rm L}}+\sqrt{\kappa_{{\rm L}}/2}\left({\rm d}W_{1{\rm L}}+{\rm i}{\rm d}W_{2{\rm L}}\right),\\
+\partial_{t}a_{{\rm R}} & ={\rm i}\left(-\frac{g_{{\rm R}}}{\sqrt{2}}\left(\varLambda_{30,i}^{x}+{\rm i}\varLambda_{30,i}^{y}\right)+\Delta_{{\rm R}}a_{{\rm R}}\right)-\frac{\kappa_{{\rm {\rm {\rm R}}}}}{2}a_{{\rm {\rm {\rm R}}}}+\sqrt{\kappa_{{\rm R}}/2}\left({\rm d}W_{1{\rm R}}+{\rm i}{\rm d}W_{2{\rm R}}\right),\\
+\partial_{t}\varLambda_{10,i}^{x} & =g_{{\rm R}}\left(\varLambda_{31,i}^{y}{\rm Re}\left(a_{{\rm R}}\right)-\varLambda_{31,i}^{x}{\rm Im}\left(a_{{\rm R}}\right)\right)+\frac{\Omega_{{\rm R}}}{2}\varLambda_{31,i}^{y}+g_{{\rm L}}\left(\varLambda_{20,i}^{y}{\rm Re}\left(a_{{\rm L}}\right)-\varLambda_{20,i}^{x}{\rm Im}\left(a_{{\rm L}}\right)\right)+\frac{\Omega_{{\rm L}}}{2}\varLambda_{20,i}^{y},\\
+\partial_{t}\varLambda_{20,i}^{x} & =g_{{\rm R}}\left(\varLambda_{32,i}^{y}{\rm Re}\left(a_{{\rm R}}\right)-\varLambda_{32,i}^{x}{\rm Im}\left(a_{{\rm R}}\right)\right)+{\rm i}g_{{\rm L}}\left(\varLambda_{10,i}^{x}{\rm Re}\left(a_{{\rm L}}\right)-\varLambda_{10,i}^{y}{\rm Im}\left(a_{{\rm L}}\right)\right)+\frac{\Omega_{{\rm R}}}{2}\varLambda_{32,i}^{y}+\frac{\Omega_{{\rm L}}}{2}\varLambda_{10,i}^{y},\\
+\partial_{t}\varLambda_{30,i}^{x} & =\sqrt{2}g_{{\rm R}}{\rm Im}\left(a_{{\rm R}}\right)\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{2\sqrt{3}\varLambda_{3,i}^{z}}{3}\right),\\
+\partial_{t}\varLambda_{21,i}^{x} & =g_{{\rm L}}\left(\sqrt{3}\varLambda_{2,i}^{z}-\varLambda_{1,i}^{z}\right){\rm Im}\left(a_{{\rm L}}\right),\\
+\partial_{t}\varLambda_{31,i}^{x} & =g_{{\rm R}}\left({\rm Im}\left(a_{{\rm R}}\right)\varLambda_{10,i}^{x}-{\rm Re}\left(a_{{\rm R}}\right)\varLambda_{10,i}^{y}\right)-\frac{\Omega_{{\rm R}}}{2}\varLambda_{10,i}^{y}-g_{{\rm L}}\left({\rm Im}\left(a_{{\rm L}}\right)\varLambda_{32,i}^{x}+{\rm Re}\left(a_{{\rm L}}\right)\varLambda_{32,i}^{y}\right)-\frac{\Omega_{{\rm L}}}{2}\varLambda_{32,i}^{y},\\
+\partial_{t}\varLambda_{32,i}^{x} & =g_{{\rm R}}\left(\varLambda_{20,i}^{x}{\rm Im}\left(a_{{\rm R}}\right)-\varLambda_{20,i}^{y}{\rm Re}\left(a_{{\rm R}}\right)\right)-\frac{\Omega_{{\rm R}}}{2}\varLambda_{20,i}^{y}+g_{{\rm L}}\left(\varLambda_{31,i}^{x}{\rm Im}\left(a_{{\rm L}}\right)-\varLambda_{31,i}^{y}{\rm Re}\left(a_{{\rm L}}\right)\right)-\frac{\Omega_{{\rm L}}}{2}\varLambda_{31,i}^{y},\\
+\partial_{t}\varLambda_{10,i}^{y} & =g_{{\rm R}}\left(\varLambda_{31,i}^{x}{\rm Re}\left(a_{{\rm R}}\right)+\varLambda_{31,i}^{y}{\rm Im}\left(a_{{\rm R}}\right)\right)+\frac{\Omega_{{\rm R}}}{2}\varLambda_{31,i}^{x}-g_{{\rm L}}\left(\varLambda_{20,i}^{x}{\rm Re}\left(a_{{\rm L}}\right)+\varLambda_{20,i}^{y}{\rm Im}\left(a_{{\rm L}}\right)\right)-\frac{\Omega_{{\rm L}}}{2}\varLambda_{20,i}^{x},\\
+\partial_{t}\varLambda_{20,i}^{y} & =g_{{\rm R}}\left(\varLambda_{32,i}^{x}{\rm Re}\left(a_{{\rm R}}\right)+\varLambda_{32,i}^{y}{\rm Im}\left(a_{{\rm R}}\right)\right)+\frac{\Omega_{{\rm R}}}{2}\varLambda_{32,i}^{x}+g_{{\rm L}}\left(-\varLambda_{10,i}^{x}{\rm Re}\left(a_{{\rm L}}\right)+\varLambda_{10,i}^{y}{\rm Im}\left(a_{{\rm L}}\right)\right)-\frac{\Omega_{{\rm L}}}{2}\varLambda_{10,i}^{y},\\
+\partial_{t}\varLambda_{30,i}^{y} & =-\frac{1}{\sqrt{2}}\left(2{\rm Re}\left(a_{{\rm R}}\right)g_{{\rm R}}+\Omega_{{\rm R}}\right)\left(\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{2\sqrt{3}\varLambda_{3,i}^{z}}{3}\right),\\
+\partial_{t}\varLambda_{21,i}^{y} & =\left(g_{{\rm L}}{\rm Re}\left(a_{{\rm L}}\right)+\frac{\Omega_{{\rm L}}}{2}\right)\left(\varLambda_{1,i}^{z}-\sqrt{3}\varLambda_{2,i}^{z}\right),\\
+\partial_{t}\varLambda_{31,i}^{y} & =-g_{{\rm R}}\left(\varLambda_{10,i}^{x}{\rm Re}\left(a_{{\rm R}}\right)-\varLambda_{10,i}^{y}{\rm Im}\left(a_{{\rm R}}\right)\right)-\frac{\Omega_{{\rm R}}}{2}\varLambda_{10}^{x}+g_{{\rm L}}\left(\varLambda_{32,i}^{x}{\rm Re}\left(a_{{\rm L}}\right)-\varLambda_{32,i}^{y}{\rm Im}\left(a_{{\rm L}}\right)\right)+\frac{\Omega_{{\rm L}}}{2}\varLambda_{32,i}^{y},\\
+\partial_{t}\varLambda_{32,i}^{y} & =-g_{{\rm R}}\left(\varLambda_{20,i}^{x}{\rm Re}\left(a_{{\rm R}}\right)+\varLambda_{20,i}^{y}{\rm Im}\left(a_{{\rm R}}\right)\right)-\frac{\Omega_{{\rm R}}}{2}\varLambda_{20,i}^{x}+g_{{\rm L}}\left(\varLambda_{31,i}^{x}{\rm Re}\left(a_{{\rm L}}\right)+\varLambda_{31,i}^{y}{\rm Im}\left(a_{{\rm L}}\right)\right)+\frac{\Omega_{{\rm L}}}{2}\varLambda_{31,i}^{x},\\
+\partial_{t}\varLambda_{1,i}^{z} & =-g_{{\rm R}}\left(\varLambda_{30,i}^{x}{\rm Im}\left(a_{{\rm R}}\right)-{\rm Re}\left(a_{{\rm R}}\right)\varLambda_{30,i}^{y}\right)+\frac{\Omega_{{\rm R}}}{2}\varLambda_{30,i}^{y}-g_{{\rm L}}\left(-\varLambda_{21,i}^{x}{\rm Im}\left(a_{{\rm L}}\right)+{\rm Re}\left(a_{{\rm L}}\right)\varLambda_{21,i}^{y}\right)-\frac{\Omega_{{\rm L}}}{2}\varLambda_{21,i}^{y},\\
+\partial_{t}\varLambda_{2,i}^{z} & =-\frac{g_{{\rm R}}}{\sqrt{3}}\left(\varLambda_{30,i}^{x}{\rm Im}\left(a_{{\rm R}}\right)-\varLambda_{30,i}^{y}{\rm Re}\left(a_{{\rm R}}\right)\right)+\frac{\Omega_{{\rm R}}}{2\sqrt{3}}\varLambda_{30,i}^{y}-g_{{\rm L}}\sqrt{3}\left(\varLambda_{21,i}^{x}{\rm Im}\left(a_{{\rm L}}\right)-{\rm Re}\left(a_{{\rm L}}\right)\varLambda_{21,i}^{y}\right)+\frac{\sqrt{3}\Omega_{{\rm L}}}{2}\varLambda_{21,i}^{y}.\\
+\partial_{t}\varLambda_{3,i}^{z} & =\sqrt{\frac{2}{3}}\left(2g_{{\rm R}}\left(\varLambda_{30,i}^{x}{\rm Im}\left(a_{{\rm R}}\right)+\varLambda_{30,i}^{y}{\rm Re}\left(a_{{\rm R}}\right)\right)+\Omega_{{\rm R}}\varLambda_{30,i}^{y}\right).
 \end{align}
 
 \end_inset
@@ -875,7 +1312,6 @@ So
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align}
-\\
 \varLambda_{1,i}^{z} & =\frac{1}{\sqrt{2}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}-\left|1\right\rangle \!\!\left\langle 1\right|_{i}\right)\\
 \varLambda_{2,i}^{z} & =\frac{1}{\sqrt{6}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}-2\left|2\right\rangle \!\!\left\langle 2\right|_{i}\right),\\
 \varLambda_{3,i}^{z} & =\frac{1}{\sqrt{12}}\left(\left|0\right\rangle \!\!\left\langle 0\right|_{i}+\left|1\right\rangle \!\!\left\langle 1\right|_{i}+\left|2\right\rangle \!\!\left\langle 2\right|_{i}-3\left|3\right\rangle \!\!\left\langle 3\right|_{i}\right).
@@ -914,35 +1350,78 @@ Then
  & =-\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}+\frac{\mathbb{I}}{4},\\
 \left|3\right\rangle \!\!\left\langle 3\right|_{i} & =\frac{\mathbb{I}}{4}-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{2},\\
 \\
-\\
-\\
-\\
-\\
-\\
-\\
 \left|0\right\rangle \!\!\left\langle 0\right|_{i} & =\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}+\frac{\mathbb{I}}{4},\\
 \left|1\right\rangle \!\!\left\langle 1\right|_{i} & =-\frac{\sqrt{2}}{2}\varLambda_{1,i}^{z}+\frac{\sqrt{6}}{6}\varLambda_{2,i}^{z}+\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}+\frac{\mathbb{I}}{4},\\
 \left|2\right\rangle \!\!\left\langle 2\right|_{i} & =\frac{\mathbb{I}}{4}+\frac{\sqrt{3}\varLambda_{3,i}^{z}}{6}-\frac{\sqrt{6}}{3}\varLambda_{2,i}^{z},\\
-\left|3\right\rangle \!\!\left\langle 3\right|_{i} & =\frac{\mathbb{I}}{4}-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{2},\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
-\\
+\left|3\right\rangle \!\!\left\langle 3\right|_{i} & =\frac{\mathbb{I}}{4}-\frac{\sqrt{3}\varLambda_{3,i}^{z}}{2}.
 \end{align}
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+The matrix elements are:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\varLambda_{ba,i}^{x} & =\frac{1}{\sqrt{2}}\left(\left|b\right\rangle \!\!\left\langle a\right|_{i}+\left|a\right\rangle \!\!\left\langle b\right|_{i}\right),\\
+\left|\lambda_{+x}\right\rangle _{ba,i} & =\frac{1}{\sqrt{2}}\left(\left|b\right\rangle +\left|a\right\rangle \right),\\
+\left|\lambda_{-x}\right\rangle _{ba,i} & =\frac{1}{\sqrt{2}}\left(\left|b\right\rangle -\left|a\right\rangle \right),\\
+\varLambda_{ba,i}^{x} & =\frac{1}{\sqrt{2}}\left(\left|\lambda_{+x}\right\rangle _{ba,i}\!\!\left\langle \lambda_{+x}\right|_{ba,i}-\left|\lambda_{-x}\right\rangle _{ba,i}\!\!\left\langle \lambda_{-x}\right|_{ba,i}\right),\\
+\varLambda_{ba,i}^{y} & =\frac{1}{\sqrt{2}{\rm i}}\left(\left|a\right\rangle \!\!\left\langle b\right|_{i}-\left|b\right\rangle \!\!\left\langle a\right|_{i}\right),\\
+\left|\lambda_{+y}\right\rangle _{ba,i} & =\frac{1}{\sqrt{2}}\left(\left|a\right\rangle +{\rm i}\left|b\right\rangle \right),\\
+\left|\lambda_{-y}\right\rangle _{ba,i} & =\frac{1}{\sqrt{2}}\left(\left|a\right\rangle -{\rm i}\left|b\right\rangle \right),\\
+\varLambda_{ba,i}^{y} & =\frac{1}{\sqrt{2}}\left(\left|\lambda_{+y}\right\rangle _{ba,i}\!\!\left\langle \lambda_{+y}\right|_{ba,i}-\left|\lambda_{-y}\right\rangle _{ba,i}\!\!\left\langle \lambda_{-y}\right|_{ba,i}\right).
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We generalize to the state 
+\begin_inset Formula $\left|\psi_{i}\left(0\right)\right\rangle =\cos\left(\frac{\theta}{2}\right)\left|0\right\rangle +{\rm e}^{{\rm i}\phi}\sin\left(\frac{\theta}{2}\right)\left|1\right\rangle $
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\lambda_{10,x} & =\left\{ \left(-\frac{1}{\sqrt{2}},\frac{1-\cos\left(\phi\right)\sin\left(\theta\right)}{2}\right),\left(0,0\right),\left(\frac{1}{\sqrt{2}},\frac{1+\cos\left(\phi\right)\sin\left(\theta\right)}{2}\right)\right\} ,\\
+\lambda_{20,x} & =\left\{ \left(-\frac{1}{\sqrt{2}},\frac{\cos^{2}\left(\frac{\theta}{2}\right)}{2}\right),\left(0,\sin^{2}\left(\frac{\theta}{2}\right)\right),\left(\frac{1}{\sqrt{2}},\frac{\cos^{2}\left(\frac{\theta}{2}\right)}{2}\right)\right\} ,\\
+\lambda_{30,x} & =\left\{ \left(-\frac{1}{\sqrt{2}},\frac{\cos^{2}\left(\frac{\theta}{2}\right)}{2}\right),\left(0,\sin^{2}\left(\frac{\theta}{2}\right)\right),\left(\frac{1}{\sqrt{2}},\frac{\cos^{2}\left(\frac{\theta}{2}\right)}{2}\right)\right\} ,\\
+\lambda_{21,x} & =\left\{ \left(-\frac{1}{\sqrt{2}},\frac{\sin^{2}\left(\frac{\theta}{2}\right)}{2}\right),\left(0,\cos^{2}\left(\frac{\theta}{2}\right)\right),\left(\frac{1}{\sqrt{2}},\frac{\sin^{2}\left(\frac{\theta}{2}\right)}{2}\right)\right\} ,\\
+\lambda_{31,x} & =\left\{ \left(-\frac{1}{\sqrt{2}},\frac{\sin^{2}\left(\frac{\theta}{2}\right)}{2}\right),\left(0,\cos^{2}\left(\frac{\theta}{2}\right)\right),\left(\frac{1}{\sqrt{2}},\frac{\sin^{2}\left(\frac{\theta}{2}\right)}{2}\right)\right\} ,\\
+\lambda_{32,x} & =\left\{ \left(-\frac{1}{\sqrt{2}},0\right),\left(0,1\right),\left(\frac{1}{\sqrt{2}},0\right)\right\} ,\\
+\lambda_{10,y} & =\left\{ \left(-\frac{1}{\sqrt{2}},\frac{1-\sin\left(\phi\right)\sin\left(\theta\right)}{2}\right),\left(0,0\right),\left(\frac{1}{\sqrt{2}},\frac{1+\sin\left(\phi\right)\sin\left(\theta\right)}{2}\right)\right\} ,\\
+\lambda_{20,y} & =\left\{ \left(-\frac{1}{\sqrt{2}},\frac{\cos^{2}\left(\frac{\theta}{2}\right)}{2}\right),\left(0,\sin^{2}\left(\frac{\theta}{2}\right)\right),\left(\frac{1}{\sqrt{2}},\frac{\cos^{2}\left(\frac{\theta}{2}\right)}{2}\right)\right\} ,\\
+\lambda_{30,y} & =\left\{ \left(-\frac{1}{\sqrt{2}},\frac{\cos^{2}\left(\frac{\theta}{2}\right)}{2}\right),\left(0,\sin^{2}\left(\frac{\theta}{2}\right)\right),\left(\frac{1}{\sqrt{2}},\frac{\cos^{2}\left(\frac{\theta}{2}\right)}{2}\right)\right\} ,\\
+\lambda_{21,y} & =\left\{ \left(-\frac{1}{\sqrt{2}},\frac{\sin^{2}\left(\frac{\theta}{2}\right)}{2}\right),\left(0,\cos^{2}\left(\frac{\theta}{2}\right)\right),\left(\frac{1}{\sqrt{2}},\frac{\sin^{2}\left(\frac{\theta}{2}\right)}{2}\right)\right\} ,\\
+\lambda_{31,y} & =\left\{ \left(-\frac{1}{\sqrt{2}},\frac{\sin^{2}\left(\frac{\theta}{2}\right)}{2}\right),\left(0,\cos^{2}\left(\frac{\theta}{2}\right)\right),\left(\frac{1}{\sqrt{2}},\frac{\sin^{2}\left(\frac{\theta}{2}\right)}{2}\right)\right\} ,\\
+\lambda_{32,y} & =\left\{ \left(-\frac{1}{\sqrt{2}},0\right),\left(0,1\right),\left(\frac{1}{\sqrt{2}},0\right)\right\} ,\\
+\lambda_{1,z} & =\left\{ \left(-\frac{1}{\sqrt{2}},\sin^{2}\left(\frac{\theta}{2}\right)\right),\left(0,0\right),\left(\frac{1}{\sqrt{2}},\cos^{2}\left(\frac{\theta}{2}\right)\right)\right\} ,\\
+\lambda_{2,z} & =\left\{ \left(-\frac{2}{\sqrt{6}},0\right),\left(0,0\right),\left(\frac{1}{\sqrt{6}},1\right)\right\} ,\\
+\lambda_{3,z} & =\left\{ \left(0,0\right),\left(\frac{1}{\sqrt{12}},1\right)\right\} .
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here we use the notation 
+\begin_inset Formula $\left(\lambda_{i},p_{\lambda_{i}}\right)$
+\end_inset
+
+.
 \end_layout
 
 \end_body
